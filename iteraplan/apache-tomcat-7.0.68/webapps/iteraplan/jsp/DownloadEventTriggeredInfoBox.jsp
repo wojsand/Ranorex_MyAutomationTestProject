@@ -1,0 +1,23 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<%@ taglib uri="http://tags.iteratec.de/iteratec-tags" prefix="itera"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+
+<%-- Show success message: download started --%>
+<c:if test="${not empty triggerDownloadEvent}">
+	<div id="downloadStartedMessage" class="alert alert-info">
+		<button class="close" data-dismiss="alert" type="button">×</button>
+		<itera:message key="global.download.starting" />
+	</div>
+</c:if>
+
+
+<%-- Start the file download, after the page has been loaded. --%>
+<c:if test="${not empty triggerDownloadEvent}">
+	<script type="text/javascript">
+		$(document).ready(function() {
+			flowAction('${triggerDownloadEvent}');
+		});
+	</script>
+</c:if>
+

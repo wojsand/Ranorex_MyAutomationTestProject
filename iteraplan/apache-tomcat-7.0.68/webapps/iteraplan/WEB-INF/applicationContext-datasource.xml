@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+
+	<!-- The concrete values used for the configuration of the master data source 
+		are set in the file 'iteraplan-db.properties.' -->
+	<bean id="masterDataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="${database.driver}" />
+		<property name="url" value="${database.url}" />
+		<property name="username" value="${database.login}" />
+		<property name="password" value="${database.password}" />
+		<property name="defaultAutoCommit" value="${database.pool.autoCommit}" />
+		<property name="validationQuery" value="${database.validationquery}" />
+		<property name="testOnBorrow" value="${database.pool.testOnBorrow}" />
+		<property name="initialSize" value="${database.pool.initialSize}" />
+		<property name="maxActive" value="${database.pool.maxActive}" />
+		<property name="maxIdle" value="${database.pool.maxIdle}" />
+		<property name="minIdle" value="${database.pool.minIdle}" />
+		<property name="defaultTransactionIsolation" value="${database.pool.transactionIsolation}" />
+		<property name="maxWait" value="${database.pool.maxWait}" />
+	</bean>
+
+	<bean id="sessionFactory"
+    class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource" ref="masterDataSource" />
+		<property name="mappingResources" ref="hibernateMappingResources" />
+
+	<!-- Following property is set depending on the currently active Spring Profile -->
+		<property name="hibernateProperties" ref="hibernateSessionProperties" />
+	</bean>
+
+	<util:list id="hibernateMappingResources">
+		<value>de/iteratec/iteraplan/persistence/mapping/UserTypes.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/BuildingBlock.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/BuildingBlockType.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/BusinessObject.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/InformationSystem.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/TechnicalComponent.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/InformationSystemInterface.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/Release.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/user/PermissionAttrTypeGroup.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/user/PermissionFunctional.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/user/Role2BbtPermission.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/user/Role.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/user/UserEntity.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/attribute/AttributeType.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/attribute/AttributeTypeGroup.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/attribute/AttributeValue.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/attribute/AttributeValueAssignment.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/attribute/RangeValue.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/attribute/Timeseries.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/attribute/DateInterval.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/ConsistencyCheck.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/PermissionQuery.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/CustomDashboardInstance.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/CustomDashboardTemplate.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/SavedQueryEntity.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/HistoryRevisionEntity.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/user/LicenseKey.hbm.xml
+		</value>
+		<value>de/iteratec/iteraplan/persistence/mapping/reactor/ReactorScriptConfig.hbm.xml
+		</value>		
+	</util:list>
+
+	<!-- IteraQl EventListener Bean -->
+	<bean id="elasticUpdateListener"
+    class="de.iteratec.iteraplan.persistence.iteraql.ElasticUpdateEventListener" init-method="registerAsListeners">
+	    <constructor-arg ref="sessionFactory" />
+		<constructor-arg ref="springM3CRepository" />
+		<constructor-arg ref="springIteraplanMappingRepository" />
+		<property name="synchronizationRegistry" ref="synchronizationRegistry" />
+	</bean>
+
+	<!-- Reactions Api EventListener Bean -->
+	<bean id="reactionsUpdateListener"
+		  class="de.iteratec.iteraplan.api.ReactionsEventListener" init-method="registerAsListeners">
+		<constructor-arg ref="sessionFactory" />
+		<property name="scriptService" ref="ScriptService" />
+		<property name="synchronizationRegistry" ref="synchronizationRegistry" />
+	</bean>
+	
+	<bean id="synchronizationRegistry" class="de.iteratec.iteraplan.persistence.iteraql.SynchronizationRegistry" init-method="initMap">
+		<property name="m3cRepository" ref="springM3CRepository" />
+	</bean>
+
+	<beans profile="de.iteratec.iteraplan.testing">
+		<util:properties id="hibernateSessionProperties">
+			<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+			<prop key="hibernate.show_sql">false</prop>
+			<prop key="hibernate.format_sql">true</prop>
+			<prop key="hibernate.use_sql_comments">true</prop>
+			<prop key="hibernate.cache.use_second_level_cache">false</prop>
+			<prop key="hibernate.cache.use_query_cache">false</prop>
+            <prop key="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory
+			</prop>
+			<prop key="hibernate.generate_statistics">true</prop>
+			<prop key="hibernate.jdbc.batch_size">100</prop>
+			<prop key="hibernate.default_batch_fetch_size">100</prop>
+			<prop key="hibernate.jdbc.use_streams_for_binary">true</prop>
+
+			<!-- Hibernate Search configuration -->
+            <prop key="hibernate.search.default.directory_provider">org.hibernate.search.store.impl.FSDirectoryProvider</prop>
+			<prop key="hibernate.search.default.indexBase">${hibernate.search.index}</prop>
+            <prop key="hibernate.search.lucene_version">LUCENE_CURRENT</prop>
+            <prop key="hibernate.search.autoregister_listeners">true</prop>
+
+			<!-- Hibernate Envers configuration -->
+			<prop key="org.hibernate.envers.audit_table_prefix">HIST_</prop>
+			<prop key="org.hibernate.envers.audit_table_suffix"></prop>
+            <!-- Auto registering of listeners disabled in order to be able to use customized listeners for conditional auditing -->
+            <!-- https://docs.jboss.org/hibernate/core/4.0/devguide/en-US/html/ch15.html#d0e5519 -->
+            <prop key="hibernate.envers.autoRegisterListeners">false</prop>
+
+			<!-- Limit the number of outer joins to one level of depth from the initial 
+				object -->
+			<prop key="hibernate.max_fetch_depth">1</prop>
+
+			<!-- When set to *false*: Workaround to prevent Hibernate from opening 
+				a connection to Oracle during Session Factory init. This can cause problems 
+				when you just want to generate some SQL but don't have an actual DB around 
+				to connect to -->
+			<prop key="hibernate.temp.use_jdbc_metadata_defaults">false</prop>
+
+            <!-- Workaround: replace the default value of scrollable resultset -->
+            <prop key="hibernate.jdbc.use_scrollable_resultset">true</prop>			
+		</util:properties>
+	</beans>
+
+	<beans profile="de.iteratec.iteraplan.deployment">
+		<util:properties id="hibernateSessionProperties">
+			<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+			<prop key="hibernate.show_sql">false</prop>
+			<prop key="hibernate.format_sql">true</prop>
+			<prop key="hibernate.use_sql_comments">true</prop>
+			<prop key="hibernate.cache.use_second_level_cache">${hibernate.cache.usesecondlevelcache}</prop>
+			<prop key="hibernate.cache.use_query_cache">${hibernate.cache.usequerycache}</prop>
+            <prop key="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory
+			</prop>
+			<prop key="hibernate.generate_statistics">false</prop>
+			<prop key="hibernate.jdbc.batch_size">100</prop>
+			<prop key="hibernate.default_batch_fetch_size">100</prop>
+			<prop key="hibernate.jdbc.use_streams_for_binary">true</prop>
+
+			<!-- Hibernate Search configuration -->
+            <prop key="hibernate.search.default.directory_provider">org.hibernate.search.store.impl.FSDirectoryProvider</prop>
+			<prop key="hibernate.search.default.indexBase">${hibernate.search.index}</prop>
+            <prop key="hibernate.search.lucene_version">LUCENE_CURRENT</prop>
+            <prop key="hibernate.search.autoregister_listeners">true</prop>
+
+			<!-- Hibernate Envers configuration -->
+			<prop key="org.hibernate.envers.audit_table_prefix">HIST_</prop>
+			<prop key="org.hibernate.envers.audit_table_suffix"></prop>
+            <!-- Auto registering of listeners disabled in order to be able to use customized listeners for conditional auditing -->
+            <!-- https://docs.jboss.org/hibernate/core/4.0/devguide/en-US/html/ch15.html#d0e5519 -->
+            <prop key="hibernate.envers.autoRegisterListeners">false</prop>
+
+			<!-- Limit the number of outer joins to one level of depth from the initial 
+				object -->
+			<prop key="hibernate.max_fetch_depth">1</prop>
+
+			<!-- When set to *false*: Workaround to prevent Hibernate from opening 
+				a connection to Oracle during Session Factory init. This can cause problems 
+				when you just want to generate some SQL but don't have an actual DB around 
+				to connect to -->
+			<prop key="hibernate.temp.use_jdbc_metadata_defaults">true</prop>
+
+            <!-- Workaround: replace the default value of scrollable resultset -->
+            <prop key="hibernate.jdbc.use_scrollable_resultset">true</prop>			
+		</util:properties>
+	</beans>
+
+</beans>

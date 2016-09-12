@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="6b4e5b64-3ea0-4bfd-b216-595b7852e581"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		InstantSelectItem
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InstantSelectItem"
+	namespace="IteraPlanTests.Web"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="5b3232f2-2ba0-47ff-8c02-ca6ca177d46c"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="625"
+		sy="624"
+		loc="8;8">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="0d79e306-f086-4c2c-bcc6-66f83e449a96">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="617,616,16,16"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						ui-button-icon-primary ui-icon ui-icon-triangle-1-s
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost:8080']//table[#'componentModel.childrenModel.htmlId']//button[@title='Show All Items']/span[1]
+				</path>
+			</info>
+			<helperscreenshot
+			guid="976dbb7e-3aa0-4fbe-b35e-56d752e5dadf">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA0ADYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDfw3tR
+hvaneSn+1/32f8arQl3iDGVvyH+FT7wyfDe1GG9qrfaYv+fxf++lo+0xf8/i/wDfS0rvuVyS7FnD
+e1GG9qrC4jYgLdqSeAAy81PEzbmVjnGCD/n6UNsTVtx2G9qKdRU8zFYfVO2/1C/j/OrlUbcnyR+P
+861EZ2l2cFxbM8se5g5GckcYFXf7Ms/+eP8A48f8ag0XP2R/+uh/kKhmtYoLuSdWMYiMTY42jc5B
+zkeg/CohFNbHVXqzVRpNjru2ht7yz8lNu6TnknuK1Y/9c/8Auj+tZl9IstxYvG6upk4ZTkHkVpRf
+61/90f1pbXJqtyhBvz/MmoooqDEfVO2H7hfx/nU2wesn/fTU0QoBgBwPQFq15vIkx4V1Kyt3Edsr
+DluTk5x7H2q3aRyXbySNLG8biFo5I1IBCuWIIJ4OeKveUv8A00/76aqaSpp93JFK4SCbMsbO2AG/
+iGSfcH8TRHTQ0qVHUd2iC/01Io3uYyqvEssu9Rglt25c+oHI5rSj/wBc/wDuj+tZ1/cRXiR2kEyy
+GaQK3lyDIXqx/IVqKoQYVT+RolsQh1FJ+B/Kis7MZJRRRWxIVAy+ZclGZgqoDhWI5JPp9KKKAHfZ
+0/vSf9/W/wAaPs6f3pP+/rf40UUAH2dP70n/AH9b/GiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="15c40108-214d-47d9-8c2e-fa14832da0fc"
+		action="Down"
+		button="Left"
+		movetime="300ms"
+		sx="731"
+		sy="701"
+		loc="338;61">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="42d9b9e4-14f3-4b65-9ca3-692e5c754814">
+				<path>
+					/dom[@domain='localhost:8080']/body/ul[2]/?/?/a[@innertext='GreenIT']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="e4f90baa-36ae-4667-ac1c-98054c259f39"
+		action="Up"
+		button="Left"
+		movetime="300ms"
+		sx="724"
+		sy="768"
+		loc="331;128">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="42d9b9e4-14f3-4b65-9ca3-692e5c754814">
+				<path>
+					/dom[@domain='localhost:8080']/body/ul[2]/?/?/a[@innertext='GreenIT']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="a14b5fd4-412f-44dc-8dd8-be934692a347"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="474"
+		sy="678"
+		loc="79;7">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="42d9b9e4-14f3-4b65-9ca3-692e5c754814">
+				<path>
+					/dom[@domain='localhost:8080']/body/ul[2]/?/?/a[@innertext='GreenIT']
+				</path>
+			</info>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="9bdfd1bd-7f3f-4dff-a962-d1f81617b6bd"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="368"
+		sy="617"
+		loc="10;9">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="8b04160c-5c04-40b1-bde0-db1e7edcabf1">
+				<element
+				role="unknown"
+				prefcap="itag"
+				capabilities="webelement, itag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="358,608,14,14"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						icon-plus
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='localhost:8080']//a[#'componentModel.childrenModel.htmlId_add']/i
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9abf7c79-c501-4e43-a0be-33c3e49217d0">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA+ADcDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKR/u
+0tI/3aAI6D09KKKAKi2bm5imnmEjRA7CE2k59Tnn8hUcOmtE9v8Av8pbsxVdnJB9Tn3q/RQBnwaY
+Y0gjlmEkcJJVdmCSc9Tn3orQopptCaT3JaR/u0tI33aQzMl1W3ileNlmyrFTgDt+NM/tm2/uzfkP
+8ajtLmG1ub6Sd9qmXAOCect6UlprEYnuPtNwfL3fufkPTJ9B9OtYpyaudU/ZQfLy/iWrfUoLmdYk
+EoZs4yBjpn1q7t9zWfP/AMh+3/65n/2atKhSZFWMVZxW6G4x3NFNn/1LUVrCLkr3OduxPSN92lpG
++7TYzFtDb/a71bkxYMuQJMeretQ/ZLYGcM9vIJp4xGqNyFL8j24PatN9NtJHZ2iyzHJO49fzrPOn
+qNUCx74ykiSRqRlXQFd2D1yDn9Kxhe9jpqSpz97W4yOdItWh86QqqGVN8pOOGcD5j14I71vVWnsY
+2hdA7AskqgnnG85J/A0zT0SI3MUfEaTfKueFyqkgfiTVSjbUxlNysn0LE/8AqWoon/1LUVrS2Mp7
+k9I33aWkb7tIobVTUInMSzwrme3O9AOrDuvQ9Rn8cVb2t7fnUV0haHa33WZQcHqCwrNRdxkL3qHp
+Hcf+A7/4UmlQvFZBpVCyzMZZAM9W579OMCrX2a3/AOeEf/fApskNtHGztBHhQScIKtq4gn5haimz
+LawwGVrdCox0QZopx91WE482p//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="IteraPlanTestsRepository"
+	id="1d8e796b-2769-4ad7-ac0b-5d0d28844627"
+	rxversion="6.0"
+	relativepath="..\IteraPlanTestsRepository.rxrep">
+		<codegen
+		classname="IteraPlanTestsRepository"
+		namespace="IteraPlanTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="47ecf19e-25f1-4180-b634-2ae101cca2a8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InstantSelectItem.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+	<!-- Restlet configuration -->
+	<bean id="restletComponent" class="org.restlet.ext.spring.SpringComponent">
+		<property name="defaultTarget" ref="restletAppliction" />
+	</bean>
+  
+    <!-- Customize response status for exceptions, which happen inside the restlet framework (for example malformed Json). -->
+    <bean id="iteraplanStatusService" class="de.iteratec.iteraplan.presentation.rest.IteraplanStatusService" />
+
+	<bean id="restletAppliction"
+		class="de.iteratec.iteraplan.presentation.rest.IteraplanRestApplication">
+		<property name="inboundRoot" ref="router" />
+		<property name="statusService" ref="iteraplanStatusService" />
+	</bean>
+
+	<bean name="router"
+		class="de.iteratec.iteraplan.presentation.rest.IteraplanRestRouter"
+		init-method="initResources">
+		<property name="resources">
+			<map>
+                <!-- for interactive client: -->
+				<entry key="/icd" value="dataResource" />
+				<entry key="/icmm" value="allLocalesMetamodelResource" />
+				<entry key="/icdi" value="dateIntervalsResource" />
+				<!-- others -->
+				<entry key="/reactor/files" value="reactorResource" />
+				<entry key="/reactor/scripts" value="reactorScriptResource" />
+				<entry key="/reactor/published/{configName}" value="reactorPublishScriptResultResource" />
+				<entry key="/converter/svg2pdf" value="svg2pdfConverterResource" />
+				<entry key="/reactor/configs" value="reactorScriptConfigResource" />
+			</map>
+		</property>
+	</bean>
+
+	<!-- bean name="router" class="org.restlet.ext.spring.SpringBeanRouter" 
+		/> -->
+
+	<!-- Define the resources -->
+	<bean name="dataResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.data.DataResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+		<property name="importProcessFactory" ref="importProcessFactory" />
+	</bean>
+
+	<bean name="allLocalesMetamodelResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.AllLocalesMetamodelResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+	</bean>
+
+	<bean name="reactorResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.ReactorResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+	</bean>
+	
+	<bean name="reactorScriptResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.ReactorScriptResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+	</bean>
+	
+	<bean name="reactorPublishScriptResultResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.ReactorPublishScriptResultResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+	</bean>
+	
+	<bean name="svg2pdfConverterResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.Svg2PdfConverterResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+	</bean>
+	
+	<bean name="dateIntervalsResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.DateIntervalsResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+	</bean>
+	
+	<bean name="reactorScriptConfigResource"
+		class="de.iteratec.iteraplan.presentation.rest.resource.ReactorScriptConfigResource"
+		scope="prototype">
+		<property name="representationHandlers" ref="representationHandlers" />
+	</bean>
+
+	<!-- Restlet Handlers -->
+    <!-- Naming convention for keys: -->
+    <!-- format (in lower case) + ResourceType enum from package "de.iteratec.iteraplan.presentation.rest" (in camel case) -->
+    <!--  For example: "json" + ResourceType.MODEL("Model")   => "jsonModel"  -->
+	<bean name="representationHandlers"
+		class="de.iteratec.iteraplan.presentation.rest.RepresentationHandlers">
+		<property name="handlers">
+			<map>
+				<entry key="jsonModel" value-ref="jsonModelHandler" />
+				<entry key="jsonMetamodel" value-ref="jsonMetamodelHandler" />
+				<entry key="xsltFileNameList" value-ref="reactorListHandler" />
+				<entry key="xsltFileNameList" value-ref="xsltListHandler" />
+				<entry key="xsltFileDownload" value-ref="xsltFileDownloadHandler" />
+				<entry key="xsltFileManager" value-ref="xsltFileManagerHandler" />
+				<entry key="xsltScript" value-ref="xsltScriptHandler" />
+				<entry key="xsltScriptResult" value-ref="xsltScriptResultHandler" />
+				<entry key="pdfFileDownload" value-ref="svg2pdfFileDownloadHandler" />
+				<entry key="jsonDateIntervals" value-ref="dateIntervalsHandler" />				
+				<entry key="jsonGetReactorScriptConfig" value-ref="reactorScriptConfigGetHandler" />
+				<entry key="jsonPostReactorScriptConfig" value-ref="reactorScriptConfigPostHandler" />
+				<entry key="jsonPutReactorScriptConfig" value-ref="reactorScriptConfigPutHandler" />
+				<entry key="jsonDeleteReactorScriptConfig" value-ref="reactorScriptConfigDeleteHandler" />
+			</map>
+		</property>
+	</bean>
+
+	<bean name="jsonModelHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.JsonModelRepresentationHandler">
+	</bean>
+
+	<bean name="jsonMetamodelHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.JsonMetamodelRepresentationHandler">
+	</bean>
+
+	<bean name="xsltListHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.XsltListRepresentationHandler">
+		<property name="xslTransformerService" ref="xslTransformerService" />
+	</bean>
+	
+	<bean name="xsltFileDownloadHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.XsltFileDownloadRepresentationHandler">
+		<property name="xslTransformerService" ref="xslTransformerService" />
+	</bean>
+	
+	<bean name="xsltFileManagerHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.XsltFileManagerRepresentationHandler">
+		<property name="xslTransformerService" ref="xslTransformerService" />
+	</bean>
+	
+	<bean name="xsltScriptHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.XsltScriptRepresentationHandler">
+		<property name="xslTransformerService" ref="xslTransformerService" />
+	</bean>
+	
+	<bean name="xsltScriptResultHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.XsltScriptResultRepresentationHandler">
+		<property name="xslTransformerService" ref="xslTransformerService" />
+		<property name="reactorScriptConfigService" ref="reactorScriptConfigService" />
+	</bean>
+  
+	<bean name="svg2pdfFileDownloadHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.Svg2PdfRepresentationHandler">
+        <property name="svg2PdfConverterService" ref="svg2PdfConverterService" />
+	</bean>
+
+	<bean name="dateIntervalsHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.DateIntervalsRepresentationHandler">
+		<property name="dateIntervalService" ref="dateIntervalService" />
+	</bean>
+	
+	<bean name="reactorScriptConfigGetHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.ReactorScriptConfigGetRepresentationHandler">
+		<property name="reactorScriptConfigService" ref="reactorScriptConfigService" />
+	</bean>
+	
+	<bean name="reactorScriptConfigPostHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.ReactorScriptConfigPostRepresentationHandler">
+		<property name="reactorScriptConfigService" ref="reactorScriptConfigService" />
+	</bean>
+
+	<bean name="reactorScriptConfigPutHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.ReactorScriptConfigPutRepresentationHandler">
+		<property name="reactorScriptConfigService" ref="reactorScriptConfigService" />
+	</bean>
+
+	<bean name="reactorScriptConfigDeleteHandler"
+		class="de.iteratec.iteraplan.presentation.rest.representation.ReactorScriptConfigDeleteRepresentationHandler">
+		<property name="reactorScriptConfigService" ref="reactorScriptConfigService" />
+	</bean>
+</beans>

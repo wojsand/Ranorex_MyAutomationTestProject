@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="7f1621bb-6152-47f2-a629-83d01a40377f"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		OpenIteraPlan
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenIteraPlan"
+	namespace="IteraPlanTests.Web"/>
+	<variables/>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		browser="Chrome"
+		args=""
+		maximized="False"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings/>
+			<url>
+				http://localhost:8080/iteraplan
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	name="IteraPlanTestsRepository"
+	id="1d8e796b-2769-4ad7-ac0b-5d0d28844627"
+	rxversion="6.0"
+	relativepath="..\IteraPlanTestsRepository.rxrep">
+		<codegen
+		classname="IteraPlanTestsRepository"
+		namespace="IteraPlanTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="47ecf19e-25f1-4180-b634-2ae101cca2a8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenIteraPlan.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

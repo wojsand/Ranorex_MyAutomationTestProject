@@ -1,0 +1,469 @@
+iteraplan uses the following 3rd party libraries. See the subdirectory 'licenses' for the according license texts.
+
+Apache Ant (org.apache.ant:ant:1.8.4)
+License: Apache License 2.0
+http://ant.apache.org/
+
+ANTLR (language parser) (org.antlr:antlr-runtime:3.4)
+License: BSD
+http://www.antlr.org/
+
+ANTLR (language parser) (org.antlr:stringtemplate:4.0.2)
+License: BSD
+http://www.stringtemplate.org/
+
+AOP alliance (org.aopalliance:aopalliance:1.0.0)
+License: public domain
+http://aopalliance.sourceforge.net/
+
+Aspectj (only some classes used by spring AOP) (org.aspectj:aspectjweaver:1.6.12)
+License: Eclipse Public License - v 1.0
+http://eclipse.org/aspectj/
+
+Avalon framework (avalon-framework:avalon-framework :4.2.0)
+License: Apache Licence 2.0
+
+Batik SVG Toolkit (org.apache.xmlgraphics:batik-codec:1.7.1)
+License: Apache License 2.0
+http://xmlgraphics.apache.org/batik/
+
+Batik SVG Toolkit (org.apache.xmlgraphics:batic-extension:1.7.1)
+License: Apache License 2.0
+http://xmlgraphics.apache.org/batik/
+
+Batik SVG Toolkit (org.apache.xmlgraphics:batic-swing:1.7.1)
+License: Apache License 2.0
+http://xmlgraphics.apache.org/batik/
+
+Batik SVG Toolkit (org.apache.xmlgraphics:batic-transcoder:1.7.1)
+License: Apache License 2.0
+http://xmlgraphics.apache.org/batik/
+
+Batik SVG Toolkit (org.apache.xmlgraphics:fop-patched:1.0.1 (eigener patch))
+License: Apache License 2.0
+http://xmlgraphics.apache.org/fop/
+
+Batik SVG Toolkit (org.apache.xmlgraphics:xmlgraphics-commons :1.4)
+License: Apache License 2.0
+http://xmlgraphics.apache.org/commons/
+
+Jung Java Universal Network/Graph Framework (net.sf.jung:jung-algorithms:2.0.1)
+License: BSD
+http://jung.sourceforge.net/
+
+Jung Java Universal Network/Graph Framework (net.sf.jung:jung-api:2.0.1)
+License: BSD
+http://jung.sourceforge.net/
+
+Jung Java Universal Network/Graph Framework (net.sf.jung:jung-graph-impl:2.0.1)
+License: BSD
+http://jung.sourceforge.net/
+
+EMF (Import/ Export helper) (org.eclipse.emf:org.eclipse.emf.ecore.xmi:2.5.0.v20100521-1846)
+License: EPL
+https://www.eclipse.org/modeling/emf/
+
+EMF Compare (Import/ Export helper) (org.eclipse.emf.compare:org.eclipse.emf.compare:1.2.1.v20110913)
+License: EPL
+http://www.eclipse.org/emf/compare/
+
+EMF Compare (Import/ Export helper) (org.eclipse.emf.compare:org.eclipse.emf.compare.diff:1.2.1.v20110913)
+License: EPL
+http://www.eclipse.org/emf/compare/
+
+EMF Compare (Import/ Export helper) (org.eclipse.emf.compare:org.eclipse.emf.compare.match:1.2.1.v20110913)
+License: EPL
+http://www.eclipse.org/emf/compare/
+
+Apache Commons (Helper Utilities) (commons-beanutils:commons-beanutils:1.8.3)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-beanutils/
+
+Apache Commons (Helper Utilities) (commons-collections:commons-collections:3.2.2)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-collections/
+
+Apache Commons (Helper Utilities) (commons-dbcp:commons-dbcp:1.4)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-dbcp/
+
+Apache Commons (Helper Utilities) (commons-digester:commons-digester:2.1)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-digester/
+
+Apache Commons (Helper Utilities) (commons-fileupload:commons-fileupload:1.3.1)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-fileupload/
+
+Apache Commons (Helper Utilities) (commons-io:commons-io:2.1)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-io/
+
+Apache Commons (Helper Utilities) (commons-lang:commons-lang:2.6)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-lang/
+
+Apache Commons (Helper Utilities) (commons-pool:commons-pool:1.6)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-pool/
+
+Apache Commons (Helper Utilities) (commons-validator:commons-validator:1.4.0)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-validator/
+
+Apache Commons (Helper Utilities) (commons-logging:commons-logging:1.1)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-validator/
+
+Apache Commons (Helper Utilities) (commons-logging:commons-logging:1.1.1)
+License: Apache License 2.0
+http://commons.apache.org/proper/commons-validator/
+
+Zxing QR Code generator (com.google.zxing:core:2.2)
+License: Apache License 2.0
+https://github.com/zxing
+
+Zxing QR Code generator (com.google.zxing:javase:2.2)
+License: Apache License 2.0
+https://github.com/zxing
+
+Direct Web Remoting (org.directwebremoting:dwr:3.0.1)
+License: Apache License 2.0
+http://directwebremoting.org
+
+Freemarker (org.freemarker:freemarker:2.3.18)
+License: BSD
+http://freemarker.org/
+
+GSON (JSON generator) (com.google.code.gson:gson:2.2.4)
+License: Apache License 2.0
+https://code.google.com/p/google-gson/
+
+Google Guava (com.google.guava:guava:16.0.1)
+License: Apache License 2.0
+http://code.google.com/p/guava-libraries/
+
+GXL (Visio file generation) (net.sf.gxl:gxl:0.92)
+License: LGPL 2.0
+http://www.gupro.de/GXL
+
+Hibernate ORM (org.hibernate:hibernate-core:5.0.7.Final)
+License: LGPL 2.1
+http://hibernate.org/orm/
+
+Hibernate Envers (org.hibernate:hibernate-envers:5.0.7.Final)
+License: LGPL 2.1
+http://hibernate.org/orm/
+
+Hibernate (org.hibernate:hibernate-validator:4.3.2.Final)
+License: Apache License 2.0
+http://hibernate.org/validator/
+
+Hibernate Search (org.hibernate:hibernate-search-orm:5.5.2 Final)
+License: LGPL 2.1
+http://hibernate.org/search/
+
+Hibernate EHCache (org.hibernate:hibernate-ehcache:5.0.7.Final)
+License: LGPL 2.1
+http://www.ehcache.org/documentation/2.8/hibernate/
+
+HSQLDB (hsqldb:hsqldb:2.3.3)
+License: BSD
+http://hsqldb.org/
+
+Code Generation Library (Bytecode generation) (cglib:cglib:2.2.2)
+License: Apache License 2.0
+http://cglib.sourceforge.net/
+
+Jackson (JSON generator) (com.fasterxml.jackson.core:jackson-core:2.5.4)
+License: Apache License 2.0
+http://wiki.fasterxml.com/JacksonHome
+
+Jackson (JSON generator) (com.fasterxml.jackson.core:jackson-databind:2.5.4)
+License: Apache License 2.0
+http://wiki.fasterxml.com/JacksonHome
+
+Jackson (JSON generator) (com.fasterxml.jackson.core:jackson-annotations:2.5.4)
+License: Apache License 2.0
+http://wiki.fasterxml.com/JacksonHome
+
+Javax Mail (com.sun.mail:dsn:1.5.0)
+License: CDDL and GPLv2+CE
+https://java.net/projects/javamail/pages/Home
+
+Javax Mail (com.sun.mail:javax.mail:1.5.0)
+License: CDDL and GPLv2+CE
+https://java.net/projects/javamail/pages/Home
+
+Jawr (Website compressor) (net.jawr:jawr-core:3.7)
+License: Apache License 2.0
+http://jawr.java.net/
+
+Jawr (Website compressor) (net.jawr:jawr-dwr3.x-extension:3.7)
+License: Apache License 2.0
+http://jawr.java.net/
+
+Jawr (Website compressor) (com.yahoo.platform.yui:yuicompressor:2.4.8)
+License: BSD
+https://github.com/yui/yuicompressor
+
+JAXB (XML Parser) (com.sun.xml.bind:jaxb-impl:2.2.4-1)
+License: CDDL, GPL
+https://jaxb.java.net/
+
+JAXB (XML Parser) (com.sun.xml.bind:jaxb-xjc:2.2.4-1)
+License: CDDL, GPL
+https://jaxb.java.net/
+
+JFreeChart (org.jfree:jfreechart:1.0.14)
+License: LGPL
+http://www.jfree.org/jfreechart/
+
+joda time (joda-time:joda-time:2.1)
+License: Apache License 2.0
+http://www.joda.org/joda-time/
+
+JSTL (JSP Standard Tag library) (javax.servlet:jstl:1.2)
+License: CDDL
+https://jstl.java.net/index.html
+
+Java Transaction API (javax.transaction:jta:1.1)
+License: CDDL
+http://www.oracle.com/technetwork/java/javaee/jta/index.html
+
+log4j (Logging) (log4j:log4j:1.2.17)
+License: Apache License 2.0
+http://logging.apache.org/log4j/
+
+Restlet (org.restlet.jee:org.restlet:2.2.0)
+License: LGPL, CDDL, EPL, Apache
+http://www.restlet.org
+
+Restlet (org.restlet.jee:org.restlet.ext.json:2.2.0)
+License: LGPL, CDDL, EPL, Apache
+http://www.restlet.org
+
+Restlet (org.restlet.jee:org.restlet.ext.servlet:2.2.0)
+License: LGPL, CDDL, EPL, Apache
+http://www.restlet.org
+
+Restlet (org.restlet.jee:org.restlet.ext.spring:2.2.0)
+License: LGPL, CDDL, EPL, Apache
+http://www.restlet.org
+
+OpenCSV (au.com.bytecode.opencsv:opencsv-2.3:2.3)
+License: Apache License 2.0
+http://opencsv.sourceforge.net/
+
+POI (Excel file processing) (org.apache.poi:poi:3.9)
+License: Apache License 2.0
+http://poi.apache.org/
+
+POI (Excel file processing) (org.apache.poi:poi-ooxml:3.9)
+License: Apache License 2.0
+http://poi.apache.org/
+
+slf4j (Logging) (org.slf4j:slf4j-api:1.7.5)
+License: MIT
+http://www.slf4j.org/
+
+slf4j (Logging) (org.slf4j:jcl-over-slf4j:1.7.5)
+License: MIT
+http://www.slf4j.org/
+
+slf4j (Logging) [runtime] (org.slf4j:slf4j-log4j12:1.7.5)
+License: MIT
+http://www.slf4j.org/
+
+Spring Framework (org.springframework:verschiedene JARs: Spring-xxx:4.2.4 and 3.2.8.RELEASE)
+License: Apache License 2.0
+http://projects.spring.io/spring-framework/
+
+Spring Webflow (org.springframework.webflow:spring-binding:2.4.1.RELEASE)
+License: Apache License 2.0
+http://projects.spring.io/spring-webflow/
+
+Spring Webflow (org.springframework.webflow:spring-webflow:2.4.1.RELEASE)
+License: Apache License 2.0
+http://projects.spring.io/spring-webflow/
+
+Spring LDAP (org.springframework.ldap:spring-ldap-core-tiger:1.3.1.RELEASE)
+License: Apache License
+http://projects.spring.io/spring-ldap/
+
+Spring Security (org.springframework.security:verschiedene JARs: spring-security-xxx:3.2.2.RELEASE)
+License: Apache License 2.0
+http://projects.spring.io/spring-security/
+
+Apache Tiles (org.apache.tiles:tiles-extras:3.0.5)
+License: Apache License 2.0
+http://tiles.apache.org/
+
+Xwiki Commons (org.wiki.platform:xwiki-commons-component-default:4.1.3)
+License: LGPL
+http://commons.xwiki.org/xwiki/bin/view/Main/WebHome
+
+Xwiki Rendering (org.wiki.platform:Verschiedene JARs: xwiki-rendering-xxx:4.1.3)
+License: LGPL
+http://rendering.xwiki.org/xwiki/bin/view/Main/WebHome
+
+Xerces Java Parser (überschreibt Xwiki dependency mit expliziter Version) (xerces:xercesImpl :2.11.0)
+License: Apache License 2.0
+http://xerces.apache.org/xerces2-j/
+
+Twitter Bootstrap (diverse CSS und JS-Dateien:2.3.2)
+License: Apache License 2.0
+http://getbootstrap.com/
+
+Saxon HE (net.sf.saxon:Saxon-HE:9.6.0-5)
+License: MPL
+http://saxon.sourceforge.net/
+
+rhino (org.mozilla:rhino:1.7.7)
+License: MPL
+https://developer.mozilla.org/de/docs/Rhino
+
+Apache Lucene (org.apache.lucene:lucene-highlighter:5.3.1)
+License: Apache License 2.0
+https://lucene.apache.org/core/
+
+Apache Lucene (org.apache.lucene:lucene-queryparser:5.3.2)
+License: Apache License 2.0
+https://lucene.apache.org/core/
+
+ag-Grid (ag-grid.min.js:4.2)
+License: MIT
+https://www.ag-grid.com/
+
+AngularJS (angular.js:1.5.3)
+License: MIT
+https://github.com/angular
+
+AngularJS (angular-animate.js:1.5.3)
+License: MIT
+https://github.com/angular
+
+AngularJS (angular-aria.js:1.5.3)
+License: MIT
+https://github.com/angular
+
+AngularJS (angular-messages.js:1.5.3)
+License: MIT
+https://github.com/angular
+
+AngularJS (angular-motion.js:1.5.3)
+License: MIT
+https://github.com/angular
+
+AngularJS (angular-resource.js:1.5.3)
+License: MIT
+https://github.com/angular
+
+AngularJS (angular-route.js:1.3.8)
+License: MIT
+https://github.com/angular
+
+AngularJS (angular-sanitize.js:1.3.8)
+License: MIT
+https://github.com/angular
+
+AngularStrap (angular-strap.js:2.1.6)
+License: MIT
+http://mgcrea.github.io/angular-strap
+
+AngularStrap (angular-strap.tpl.js:2.1.6)
+License: MIT
+http://mgcrea.github.io/angular-strap
+
+FileSaver (FileSaver.min.js:?)
+License: https://github.com/eligrey/FileSaver.js/blob/master/LICENSE.md
+https://github.com/eligrey/FileSaver.js
+
+canvas-toBlob (canvas-toBlob.js:?)
+License: MIT
+https://github.com/eligrey/canvas-toBlob.js
+
+ngSlider (ng-slider.min.js:2.2.6)
+License: MIT
+https://github.com/darul75/ng-slider
+
+angularjs-scroll-glue (scrollglue.js:2.0.6)
+License: MIT
+https://github.com/Luegg/angularjs-scroll-glue
+
+ngDialog (ngDialog.min.js:0.4.0)
+License: MIT
+https://github.com/likeastore/ngDialog
+
+angular-input-dropdown (inputDropdown.js:1.0.1)
+License: MIT
+https://github.com/hannaholl/angular-input-dropdown
+
+angular-translate (angular-translate.min.js:2.7.2)
+License: MIT
+https://github.com/PascalPrecht/bower-angular-translate
+
+angular-translate-loader-static-files (angular-translate-loader-static-files.min.js:2.7.2)
+License: MIT
+https://github.com/PascalPrecht/bower-angular-translate-loader-static-files
+
+GoJS (go-debug.js:1.5.2)
+License: ?
+http://gojs.net
+
+log4javascript (log4javascript.js:1.4.12)
+License: apache license 2.0
+http://log4javascript.org/
+
+angular-bootstrap-colorpicker (bootstrap-colorpicker-module-Patched.js:? gepatched)
+License: MIT
+https://github.com/buberdds/angular-bootstrap-colorpicker
+
+Bootstrap (diverse:2.3.2)
+License: MIT
+http://getbootstrap.com/
+
+JQuery (1.7.1)
+License: MIT
+https://jquery.org
+
+JQuery UI (jquery-ui-1.8.16.custom.js:1.8.16)
+License: MIT
+
+markitup (jquery.markitup.js:1.1.*)
+License: MIT/GPL
+
+dojotoolkit
+License: BSD
+
+simple-excel-js (simple-excel.js:0.1.3)
+License: GPLv2 & MIT License
+https://github.com/faisalman/simple-excel-js
+
+siguza_js-xslx (xlsx.js:commit: 16b81bd45d1bbbf941b16f0d5b1121fc4f514927)
+License: Apache License 2.0
+https://github.com/Siguza/js-xlsx
+
+Moment.js (moment-with-locales.min.js:2.13)
+License: MIT
+http://momentjs.com/
+
+ng-file-upload (ng-file-upload-shim.min.js:12.0)
+License: MIT
+https://github.com/danialfarid/ng-file-upload
+
+ng-file-upload (ng-file-upload.min.js:12.0)
+License: MIT
+https://github.com/danialfarid/ng-file-upload
+
+Angular Filemanager (diverse:1.5.1 gepatched)
+License: MIT
+https://github.com/joni2back/angular-filemanager
+
+Material Icons (material-icons.css:0)
+License: Creative Commons BY 4.0
+https://google.github.io/material-design-icons/
+
+Freepik (http://www.freepik.com) (hierarchical9.png:0)
+License: Creative Commons BY 3.0
+http://www.flaticon.com/free-icon/hierarchical-structure_59309

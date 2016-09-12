@@ -1,0 +1,44 @@
+[WARN ] 09-wrz-2016 08:11:14 [common.util.IteraplanProperties] Could not access spring resources bundle, using fallback
+[WARN ] 09-wrz-2016 08:11:21 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:21 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:21 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:21 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:22 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 09-wrz-2016 08:11:31 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 09-wrz-2016 08:11:31 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 09-wrz-2016 08:11:31 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 09-wrz-2016 08:11:31 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[INFO ] 09-wrz-2016 08:11:42 [iteraplan.presentation.ContextListener] Build ID is 'Lite Edition v5.3.0-r25931'
+[INFO ] 09-wrz-2016 08:11:42 [iteraplan.presentation.ContextListener] Audit logging is deactivated.
+[INFO ] 09-wrz-2016 08:11:42 [iteraplan.presentation.ContextListener] Last modification logging is activated.

@@ -1,0 +1,2 @@
+The setting in file "javax.xml.transform.TransformerFactory" determines, application-wide,
+the default implementation of the transformer factory you get when calling TransformerFactory.newInstance()

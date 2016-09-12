@@ -1,0 +1,8 @@
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\bin\Debug\IteraPlanTests.rxtmg
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\bin\Debug\IteraPlanTests.rxtst
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\bin\Debug\IteraPlanTests.exe.config
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\bin\Debug\IteraPlanTests.exe
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\bin\Debug\IteraPlanTests.pdb
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\obj\x86\Debug\IteraPlanTests.csprojResolveAssemblyReference.cache
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\obj\x86\Debug\IteraPlanTests.exe
+C:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\obj\x86\Debug\IteraPlanTests.pdb

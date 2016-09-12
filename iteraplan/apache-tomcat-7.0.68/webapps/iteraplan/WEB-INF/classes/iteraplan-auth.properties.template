@@ -1,0 +1,8 @@
+###############################################################################
+# Properties to configure mass updates. The first integer value indicates how 
+# many properties, associations and attributes may be edited simultaneously in 
+# mass update mode, the second integer value limits the number of building 
+# blocks per update.
+###############################################################################
+
+security.daysBeforePasswordExpires=9999

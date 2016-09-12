@@ -1,0 +1,43 @@
+.excel-import-label {
+	font-weight: bold;
+	padding-left: 1em;
+}
+
+.excel-import-done {
+	color: #AC007C;
+}
+
+.excel-import-skipped {
+	color: #927D87;
+}
+
+.excel-import-pending {
+	color: #AAAAAA;
+}
+
+.excel-import-error {
+	color: #FF0000;
+}
+
+.import-controls {
+  margin-top: 20px;
+}
+
+.import-btn-small:first-child, .import-btn-wide:first-child {
+  margin-left: 0px;
+}
+
+.import-btn-small {
+  width: 120px;
+  margin-left: 15px;
+}
+
+.import-btn-wide {
+  width: 300px;
+  margin-left: 50px;
+}
+
+div.import-progress {
+	width: 500px;
+	margin-bottom: 0;
+}

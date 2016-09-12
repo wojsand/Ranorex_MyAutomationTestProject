@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:security="http://www.springframework.org/schema/security"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+                      http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+	<!-- ============================================================================================= 
+    The main filter that is declared in the web.xml. It can map relative URLs to a chain of filters.
+    ============================================================================================ -->
+	<bean id="filterChainProxy" class="org.springframework.security.web.FilterChainProxy">
+        <constructor-arg>
+          <list>
+            <security:filter-chain pattern="/ui/licensing.cxx" filters="none" />
+            <security:filter-chain pattern="/images/**" filters="none" />
+            <security:filter-chain pattern="/licensing/**" filters="none" />
+         	<security:filter-chain pattern="/api/**"
+         	  filters="
+         	    securityContextPersistenceFilter,
+          	    logoutFilter,
+         	    basicAuthenticationFilter,
+          	    securityContextHolderAwareRequestFilter,
+          	    anonymousAuthenticationFilter,
+         	    exceptionTranslationFilter,
+         	    filterSecurityInterceptor" />
+			<security:filter-chain pattern="/published/**"
+			  filters="
+         	    securityContextPersistenceFilter,
+          	    logoutFilter,
+         	    basicAuthenticationFilter,
+          	    securityContextHolderAwareRequestFilter,
+          	    anonymousAuthenticationFilter,
+         	    exceptionTranslationFilter,
+         	    filterSecurityInterceptor" />
+         	<security:filter-chain pattern="/**"
+         	  filters="
+         	    loginRedirectFilter,
+         	    securityContextPersistenceFilter,
+         	    logoutFilter,
+                x509AuthenticationFilter,
+         	    securityContextHolderAwareRequestFilter,
+         	    anonymousAuthenticationFilter,
+         	    exceptionTranslationFilter,
+         	    filterSecurityInterceptor" />
+           </list>
+         </constructor-arg>
+	</bean>
+
+	<bean id="basicAuthenticationFilter" class="de.iteratec.springframework.security.UserInitializingBasicAuthenticationFilter">
+		<constructor-arg name="authenticationManager" ref="authenticationManager" />
+		<constructor-arg name="authenticationEntryPoint" ref="authenticationEntryPoint" />
+		<property name="userContextInitializationService" ref="userContextInitializationService" />
+	</bean>
+	
+	<bean id="authenticationEntryPoint" class="org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint">
+		<property name="realmName" value="RESTful iteraplan API" />
+	</bean>
+
+	<!-- Since the normal login page does not work with SSO in effect, redirect such requests to the home page -->
+	<bean id="loginRedirectFilter" class="de.iteratec.iteraplan.presentation.LoginUrlRedirectFilter" />
+
+	<!-- ============================================================================================= 
+    Stores the SecurityContextHolder in the HttpSession.
+    ============================================================================================ -->
+	<bean id="securityContextPersistenceFilter" class="org.springframework.security.web.context.SecurityContextPersistenceFilter"/>
+
+	<!-- =============================================================================================
+    Logs a principal out. Can call several LogoutHandlers.
+    ============================================================================================ -->
+	<bean id="logoutFilter" class="org.springframework.security.web.authentication.logout.LogoutFilter">
+		<!-- URL redirected to after logout -->
+		<constructor-arg value="/jsp/index.jsp"/>
+		<constructor-arg>
+			<list>
+				<bean class="org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler">
+          			<property name="invalidateHttpSession" value="true"/>
+        		</bean>
+			</list>
+		</constructor-arg>
+		<!-- URL for activating logout -->
+    	<property name="filterProcessesUrl" value="/j_iteraplan_logout"/>
+	</bean>
+
+	<!-- =============================================================================================
+    Handlers for failure/exception / success and session authentication strategy
+    ===========================================================================================  -->
+    
+	<bean id="failureHandler" class="org.springframework.security.web.authentication.ExceptionMappingAuthenticationFailureHandler" >
+		<property name="defaultFailureUrl" value="/login.do?errorKey=login.error.badCredentials" />
+		<property name="exceptionMappings">
+	      <props>
+	        <prop key="org.springframework.security.authentication.AuthenticationServiceException">
+	          /login.do?errorKey=login.error.datasourceNotAvailable
+	        </prop>
+	        <!-- The following assumes, that iturm and iteraplan are deployed on the same machine 
+	             and that the servlet contexts are /iturm and /iteraplan!  -->
+	        <prop key="org.springframework.security.authentication.CredentialsExpiredException">	        
+	          /login.do?errorKey=login.error.passwordExpired
+	        </prop>
+	        <prop key="org.springframework.security.BadCredentialsException">
+			  /login.do?errorKey=login.error.badCredentials
+        	</prop>
+	      </props>
+	    </property>
+	</bean>
+	
+	<bean id="successHandler" class="de.iteratec.springframework.security.LoginInitializationSuccessHandler" >
+		<property name="defaultTargetUrl" value="/" />
+		<property name="loginPage" value="/login.do" />
+        <property name="needsRedirectOnAuthenticationSuccess" value="false" />
+		<property name="userContextInitializationService" ref="userContextInitializationService" />
+	</bean>
+	
+	<bean id="sas" class="org.springframework.security.web.authentication.session.SessionFixationProtectionStrategy">
+		<property name="migrateSessionAttributes" value="true" />
+	</bean>
+	
+   
+	<!-- =============================================================================================
+    Populates the ServletRequest with a new request wrapper that provides the getRemoteUser() and 
+    isUserInRole() functionality.
+    ===========================================================================================  -->
+	<bean id="securityContextHolderAwareRequestFilter" class="org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter"/>
+
+	<!-- =============================================================================================
+    Detects if there is no Authentication object in the SecurityContextHolder, and populates it with
+    one if needed.
+    ===========================================================================================  -->
+	<bean id="anonymousAuthenticationFilter" class="org.springframework.security.web.authentication.AnonymousAuthenticationFilter">
+		<constructor-arg value="changeThis" /> <!-- key -->
+		<!-- use simplified constructor with default user anonymous in ROLE_ANONYMOUS-->
+	</bean>
+
+	<!-- =============================================================================================
+    This filter is responsible to determine how unauthenticated requests should be dealt with. 
+    Basically catches AccessDeniedException and AuthenticationException and determines what to do.
+    
+    Currently set: return a 403 Forbidden HTTP error code to the user.
+    ===========================================================================================  -->
+	<bean id="exceptionTranslationFilter" class="org.springframework.security.web.access.ExceptionTranslationFilter">
+		<constructor-arg>
+			<bean class="org.springframework.security.web.authentication.Http403ForbiddenEntryPoint" />
+		</constructor-arg>
+	</bean>
+	
+	
+	<!-- =============================================================================================
+    Handles invocations of secure objects. For a complete workflow, see class AbstractSecurityInterceptor.
+    ===========================================================================================  -->
+	<bean id="filterSecurityInterceptor" class="org.springframework.security.web.access.intercept.FilterSecurityInterceptor">
+		<property name="authenticationManager" ref="authenticationManager"/>
+		<property name="accessDecisionManager">
+			<bean class="org.springframework.security.access.vote.AffirmativeBased">
+				<constructor-arg> <!-- decisionVoters -->
+					<list>
+						<bean class="org.springframework.security.access.vote.RoleVoter">
+			              <property name="rolePrefix">
+			              	<value>iteraplan_</value>
+			              </property>
+			            </bean>
+						<bean class="org.springframework.security.access.vote.AuthenticatedVoter"/>
+					</list>
+				</constructor-arg>
+				<property name="allowIfAllAbstainDecisions" value="false"/>
+			</bean>
+		</property>
+		<property name="securityMetadataSource">
+			<security:filter-security-metadata-source request-matcher="ant" lowercase-comparisons="true" >
+				<security:intercept-url pattern="/login.do" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+				<security:intercept-url pattern="/licensing/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+				<security:intercept-url pattern="/onError.do" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+				<security:intercept-url pattern="/errorNotAuthenticated.do" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+				<security:intercept-url pattern="/ui/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+                <security:intercept-url pattern="/images/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+				<security:intercept-url pattern="/**" access="IS_AUTHENTICATED_REMEMBERED"/>
+			</security:filter-security-metadata-source>
+		</property>
+	</bean>
+	
+	<security:authentication-manager alias="authenticationManager">
+		<security:authentication-provider ref="x509AuthenticationProvider" />
+	</security:authentication-manager>
+  
+    <bean id="x509AuthenticationFilter" class="de.iteratec.springframework.security.filters.X509AuthenticationFilterWithSuccessHandler">
+		<property name="authenticationManager" ref="authenticationManager" />
+		<property name="authenticationSuccessHandler" ref="successHandler" />
+		<property name="principalExtractor">
+			<bean class="org.springframework.security.web.authentication.preauth.x509.SubjectDnX509PrincipalExtractor" >
+				<property name="subjectDnRegex" value="${x509.extractUsernameFromDN.regex}" />
+			</bean>
+		</property>
+    </bean>
+    
+    <bean id="x509AuthenticationProvider" class="org.springframework.security.web.authentication.preauth.PreAuthenticatedAuthenticationProvider">
+      <property name="preAuthenticatedUserDetailsService">
+        <bean class="org.springframework.security.core.userdetails.UserDetailsByNameServiceWrapper">
+          <constructor-arg ref="ldapUserDetailsService" />
+        </bean>
+      </property>
+    </bean>
+    
+    <bean id="ldapUserDetailsService" class="org.springframework.security.ldap.userdetails.LdapUserDetailsService">
+		<constructor-arg index="0" ref="userSearch" />
+		<constructor-arg index="1" ref="ldapAuthoritiesPopulator"/>
+    </bean>
+
+	<bean id="userSearch" class="de.iteratec.springframework.security.ldap.search.FilterBasedLdapUserSearchWithMultipleSearchBases">
+		<constructor-arg index="0" value="${ldap.users.searchbase}" />
+		<constructor-arg index="1" value="${ldap.users.searchfilter}" />
+		<constructor-arg index="2" ref="ldapContextSource" />
+		<property name="searchSubtree" value="true" />
+		<property name="derefLinkFlag" value="true" />
+    </bean>
+
+	<bean id="ldapAuthoritiesPopulator" class="org.springframework.security.ldap.userdetails.DefaultLdapAuthoritiesPopulator">
+		<constructor-arg ref="ldapContextSource" />
+		<constructor-arg value="${ldap.roles.searchbase}" />
+		<property name="groupSearchFilter" value="${ldap.roles.membershipfilter}" />
+		<property name="searchSubtree" value="true" />
+		
+		<!-- Following option should help avoid problems with incorrect referrals 
+			in Active Directories. see http://forum.springsource.org/showthread.php?95544-UnknownHostException-when-connecting-to-LDAP-server -->
+		<property name="ignorePartialResultException" value="true" />
+		
+		<!-- These three properties are deprecated, but need to be set as
+			PreAuthenticatedAuthenticationProvider doesn't support GrantedAuthoritiesMapper. -->
+		<property name="convertToUpperCase" value="false" />
+		<property name="rolePrefix" value="${ldap.roles.nameprefix}" />
+		<property name="defaultRole" value="${ldap.roles.defaultrole}" />
+	</bean>
+
+	<bean id="ldapContextSource" class="org.springframework.security.ldap.DefaultSpringSecurityContextSource">
+		<constructor-arg>
+			<list>
+				<value>${ldap.url1}</value>
+				<value>${ldap.url2}</value>
+				<value>${ldap.url3}</value>
+				<value>${ldap.url4}</value>
+			</list>
+		</constructor-arg>
+		<constructor-arg value="${ldap.base}" />
+		<property name="userDn" value="${ldap.userDn}" />
+		<property name="password" value="${ldap.password}" />
+		<property name="referral" value="follow" />
+	</bean>
+  
+	<!-- Disable in productive environment. -->
+	<!--
+	<bean id="loggerListener" class="org.springframework.security.authentication.event.LoggerListener"/>
+	-->
+
+</beans>

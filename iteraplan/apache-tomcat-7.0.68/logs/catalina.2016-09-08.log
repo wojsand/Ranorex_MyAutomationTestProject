@@ -1,0 +1,232 @@
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.68
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 8 2016 20:25:54 UTC
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.68.0
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_67\jre
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_67-b01
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\iteraplan\apache-tomcat-7.0.68
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\iteraplan\apache-tomcat-7.0.68
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\iteraplan\apache-tomcat-7.0.68\conf\logging.properties
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\iteraplan\apache-tomcat-7.0.68\endorsed
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\iteraplan\apache-tomcat-7.0.68
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\iteraplan\apache-tomcat-7.0.68
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\iteraplan\apache-tomcat-7.0.68\temp
+wrz 08, 2016 8:21:38 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;c:\pce\sop\lib;c:\pce\smartclient\lib;c:\pce\jdevice\lib\ext;c:\pce\jdevice\lib\extern;c:\pce\jdevice\lib;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\pce\lib;c:\pce\lib\ext;c:\pce\lib\extern;c:\pce\smartclient\bin;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;E:\Brackets\command;E:\nodejs\;C:\Program Files\Git\cmd;.
+wrz 08, 2016 8:21:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+wrz 08, 2016 8:21:38 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1211 ms
+wrz 08, 2016 8:21:38 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+wrz 08, 2016 8:21:38 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.68
+wrz 08, 2016 8:21:38 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\iteraplan\apache-tomcat-7.0.68\conf\Catalina\localhost\iteraplan.xml
+wrz 08, 2016 8:22:01 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 08, 2016 8:23:07 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\iteraplan\apache-tomcat-7.0.68\conf\Catalina\localhost\iteraplan.xml has finished in 89,246 ms
+wrz 08, 2016 8:23:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\docs
+wrz 08, 2016 8:23:08 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 08, 2016 8:23:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\docs has finished in 516 ms
+wrz 08, 2016 8:23:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\examples
+wrz 08, 2016 8:23:10 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 08, 2016 8:23:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\examples has finished in 2,322 ms
+wrz 08, 2016 8:23:10 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\host-manager
+wrz 08, 2016 8:23:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 08, 2016 8:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\host-manager has finished in 1,476 ms
+wrz 08, 2016 8:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\manager
+wrz 08, 2016 8:23:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 08, 2016 8:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\manager has finished in 442 ms
+wrz 08, 2016 8:23:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\ROOT
+wrz 08, 2016 8:23:14 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 08, 2016 8:23:14 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\ROOT has finished in 1,662 ms
+wrz 08, 2016 8:23:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+wrz 08, 2016 8:23:14 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+wrz 08, 2016 8:23:14 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 95805 ms
+wrz 08, 2016 8:34:33 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	08:34:33	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	968	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 8:34:33 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	08:34:33	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	997	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 8:34:33 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	08:34:33	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1086	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 8:37:25 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	08:37:25	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	26	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 8:37:25 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	08:37:25	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	22	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 8:37:26 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	08:37:26	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1140	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:39:46 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:39:46	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	23	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:39:46 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:39:46	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	39	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:39:46 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:39:46	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	866	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:43:40 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:43:40	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	23	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:43:40 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:43:40	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	25	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:43:42 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:43:42	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1168	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:46:21 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:46:21	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	14	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:46:21 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:46:21	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	14	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:46:22 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:46:22	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	911	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:47:16 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:47:16	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	17	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:47:16 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:47:16	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	48	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:47:17 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:47:17	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1081	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:48:48 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:48:48	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	18	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:48:48 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:48:48	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	57	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:48:49 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:48:49	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1034	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:56:08 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:56:08	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	36	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:56:08 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:56:08	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	73	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:56:09 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:56:09	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1798	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:58:15 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:58:15	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	10	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:58:15 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:58:15	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	43	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:58:16 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:58:16	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	788	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:59:36 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:59:36	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	17	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:59:36 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:59:36	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	46	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 9:59:37 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	09:59:37	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	901	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:00:49 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:00:49	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	6	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:00:49 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:00:49	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	36	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:00:50 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:00:50	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1149	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:02:57 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:02:57	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	8	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:02:57 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:02:57	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	40	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:02:58 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:02:58	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1376	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:09:23 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:09:23	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	13	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:09:23 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:09:23	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	9	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:09:24 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:09:24	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	899	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:10:06 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:10:06	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	15	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:10:07 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:10:07	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	53	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 10:10:07 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	10:10:07	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	986	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 11:47:15 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	11:47:15	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	6	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 11:47:15 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	11:47:15	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	4	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 11:47:16 AM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	11:47:16	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1633	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:16:53 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:16:53	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	1134	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:16:53 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:16:53	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	1174	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:16:54 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:16:54	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	958	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:18:07 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:18:07	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	18	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:18:07 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:18:07	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	12	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:18:08 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:18:08	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1313	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:19:12 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:19:12	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	11	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:19:12 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:19:12	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	19	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:19:13 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:19:13	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1247	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:21:00 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:21:00	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	26	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:21:01 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:21:01	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	1145	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:21:02 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:21:02	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	2292	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:44:41 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:44:41	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	7	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:44:41 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:44:41	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	46	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:44:42 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:44:42	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	874	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:51:47 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:51:47	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	9	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:51:47 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:51:47	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	13	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 12:51:47 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	12:51:47	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	761	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:06:48 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:06:48	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	13	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:06:48 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:06:48	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	42	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:06:49 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:06:49	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	1049	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:09:11 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:09:11	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	15	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:09:11 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:09:11	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	16	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:09:12 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:09:12	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	839	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:29:29 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:29:29	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icdi	-	200	91	0	3	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:29:29 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:29:29	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icmm	-	200	138780	0	29	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/
+wrz 08, 2016 1:29:30 PM org.restlet.engine.log.LogFilter afterHandle
+INFO: 2016-09-08	13:29:30	0:0:0:0:0:0:0:1	-	0:0:0:0:0:0:0:1	8080	GET	/iteraplan/api/icd	-	200	978960	0	743	http://localhost:8080	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36	http://localhost:8080/iteraplan/client/

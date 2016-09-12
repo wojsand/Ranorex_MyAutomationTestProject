@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Web\SwitchToInteractiveClient3.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="IteraPlanTests.rxtst" />
+    <Element value="Web\SwitchToInteractiveClient3.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

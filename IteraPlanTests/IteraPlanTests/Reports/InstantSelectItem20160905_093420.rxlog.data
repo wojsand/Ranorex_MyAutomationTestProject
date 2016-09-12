@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="89553a81722a62"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Andrzej"
+		host="ARTUR-PC"
+		rxversion="6.0.2.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="pl-PL"
+		screenresolution="1920x1080"
+		timestamp="2016-09-05 09:34:23"
+		timestampiso="2016-09-05T07:34:23"
+		timeoutfactor="1"
+		module="InstantSelectItem">
+		<detail>
+			InstantSelectItem
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.155"
+			timeRelativeToTestModuleStartTime="00:00.156"
+			timeWallClock="09:34:23"
+			time="00:00.155"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.UiButtonIconPrimaryUiIconUiIconT' at 8;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//table[#'componentModel.childrenModel.htmlId']//button[@title='Show All Items']/span[1]"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.UiButtonIconPrimaryUiIconUiIconT"
+				id="0d79e306f0864c2cbcc666f83e449a96"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantSelectItem.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.937"
+			timeRelativeToTestModuleStartTime="00:02.938"
+			timeWallClock="09:34:26"
+			time="00:02.937"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid' at 338;61.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']/body/ul[2]/?/?/a[@innertext='GreenIT']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid"
+				id="42d9b9e414f34b659ca3692e5c754814"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantSelectItem.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.042"
+			timeRelativeToTestModuleStartTime="00:04.043"
+			timeWallClock="09:34:27"
+			time="00:04.042"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid' at 331;128.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']/body/ul[2]/?/?/a[@innertext='GreenIT']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid"
+				id="42d9b9e414f34b659ca3692e5c754814"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantSelectItem.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.181"
+			timeRelativeToTestModuleStartTime="00:05.182"
+			timeWallClock="09:34:28"
+			time="00:05.181"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid' at 79;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']/body/ul[2]/?/?/a[@innertext='GreenIT']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid"
+				id="42d9b9e414f34b659ca3692e5c754814"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantSelectItem.cs"
+				codeline="96"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.460"
+			timeRelativeToTestModuleStartTime="00:06.461"
+			timeWallClock="09:34:30"
+			time="00:06.460"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.IconPlus' at 10;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//a[#'componentModel.childrenModel.htmlId_add']/i"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.IconPlus"
+				id="8b04160c5c0440b1bde0db1e7edcabf1"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantSelectItem.cs"
+				codeline="100"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

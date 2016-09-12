@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="40.9s"
+		durationms="40895"
+		type="root"
+		rid="4c934494853552a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Andrzej"
+		host="ARTUR-PC"
+		rxversion="6.0.2.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="pl-PL"
+		screenresolution="1920x1080"
+		timestamp="2016-09-08 09:47:11"
+		timestampiso="2016-09-08T07:47:11"
+		timeoutfactor="1"
+		module="SwitchToInteractiveClient">
+		<detail>
+			SwitchToInteractiveClient
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.134"
+			timeRelativeToTestModuleStartTime="00:00.135"
+			timeWallClock="09:47:11"
+			time="00:00.134"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://localhost:8080/iteraplan' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SwitchToInteractiveClient.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.180"
+			timeRelativeToTestModuleStartTime="00:00.181"
+			timeWallClock="09:47:11"
+			time="00:00.180"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.SwitchToInteractiveClient' at 43;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//div[#'searchHeader']/a[@innertext~'^Switch\ to\ interactive\ cli']"
+				fullname="SwitchToInteractiveClientRepository.WelcomeIteraplan.SwitchToInteractiveClient"
+				id="6e12c047af7f4220977af41941ad3ebb"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SwitchToInteractiveClient.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.516"
+			timeRelativeToTestModuleStartTime="00:02.517"
+			timeWallClock="09:47:14"
+			time="00:02.516"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.HttpLocalhost8080IteraplanClientH' at 114;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']"
+				fullname="SwitchToInteractiveClientRepository.WelcomeIteraplan.HttpLocalhost8080IteraplanClientH"
+				id="d10c5abb8af742e6adc6098af33c1fce"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SwitchToInteractiveClient.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.640"
+			timeRelativeToTestModuleStartTime="00:07.641"
+			timeWallClock="09:47:19"
+			time="00:07.640"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'WelcomeIteraplan.GreenIT1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[4]/div[@innertext='GreenIT']"
+				fullname="SwitchToInteractiveClientRepository.WelcomeIteraplan.GreenIT1"
+				id="54cd23535e494555a94983111e49e0ef"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SwitchToInteractiveClient.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.895"
+			timeRelativeToTestModuleStartTime="00:40.896"
+			timeWallClock="09:47:52"
+			time="00:40.895"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8a4d194bcce0f52"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Andrzej"
+		host="ARTUR-PC"
+		rxversion="6.0.2.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="pl-PL"
+		screenresolution="1920x1080"
+		timestamp="2016-09-08 10:02:53"
+		timestampiso="2016-09-08T08:02:53"
+		timeoutfactor="1"
+		module="ActionSwitch">
+		<detail>
+			ActionSwitch
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.143"
+			timeRelativeToTestModuleStartTime="00:00.144"
+			timeWallClock="10:02:53"
+			time="00:00.143"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.SwitchToInteractiveClient' at 39;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//div[#'searchHeader']/a[@innertext~'^Switch\ to\ interactive\ cli']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.SwitchToInteractiveClient"
+				id="22102e9393c340659c2f6f61671f4d9c"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.762"
+			timeRelativeToTestModuleStartTime="00:01.763"
+			timeWallClock="10:02:55"
+			time="00:01.762"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.IpDataTiles' at 1293;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//tag[#'tab-content-0']/?/?/tag[@tagname='ip-data-tiles']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.IpDataTiles"
+				id="cd45ed130294490d960dded3e6ae0f61"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.028"
+			timeRelativeToTestModuleStartTime="00:06.029"
+			timeWallClock="10:02:59"
+			time="00:06.028"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.HttpLocalhost8080IteraplanClientH1' at 108;44.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.HttpLocalhost8080IteraplanClientH1"
+				id="214d6f3d630f48618fa4aabcf7f15c35"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.155"
+			timeRelativeToTestModuleStartTime="00:07.156"
+			timeWallClock="10:03:01"
+			time="00:07.155"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'WelcomeIteraplan.GreenIT1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[4]/div[@innertext='GreenIT']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.GreenIT1"
+				id="88a38519fc6d4de6a5c415c47fe8104e"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.088"
+			timeRelativeToTestModuleStartTime="00:08.089"
+			timeWallClock="10:03:01"
+			time="00:08.088"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'GreenIT1' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[4]/div[@innertext='GreenIT']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.GreenIT1"
+				id="88a38519fc6d4de6a5c415c47fe8104e"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.192"
+			timeRelativeToTestModuleStartTime="00:08.193"
+			timeWallClock="10:03:02"
+			time="00:08.192"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.ShowInClassicClient' at 58;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//div[#'to-classic-client-navbar']/a[@innertext='Show in Classic Client']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.ShowInClassicClient"
+				id="3a92616d997241d8be7219b242b6d4ab"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.242"
+			timeRelativeToTestModuleStartTime="00:09.243"
+			timeWallClock="10:03:03"
+			time="00:09.242"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.IteraplanHeaderImage1' at 114;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//img[#'iteraplan_header_image']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.IteraplanHeaderImage1"
+				id="ec2a6d2bc3a04d88b20fe748b41e3fce"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

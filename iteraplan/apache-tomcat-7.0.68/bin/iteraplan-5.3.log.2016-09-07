@@ -1,0 +1,250 @@
+[WARN ] 07-wrz-2016 08:16:06 [common.util.IteraplanProperties] Could not access spring resources bundle, using fallback
+[WARN ] 07-wrz-2016 08:16:12 [env.internal.JdbcEnvironmentInitiator] HHH000342: Could not obtain connection to query metadata : Cannot create PoolableConnectionFactory (java.net.ConnectException: Connection refused: connect)
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:15 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:16:24 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 07-wrz-2016 08:16:24 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 07-wrz-2016 08:16:24 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 07-wrz-2016 08:16:24 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[INFO ] 07-wrz-2016 08:16:36 [iteraplan.presentation.ContextListener] Build ID is 'Lite Edition v5.3.0-r25931'
+[INFO ] 07-wrz-2016 08:16:36 [iteraplan.presentation.ContextListener] Audit logging is deactivated.
+[INFO ] 07-wrz-2016 08:16:36 [iteraplan.presentation.ContextListener] Last modification logging is activated.
+[WARN ] 07-wrz-2016 08:17:17 [jdbc.spi.SqlExceptionHelper] SQL Error: 0, SQLState: null
+[ERROR] 07-wrz-2016 08:17:17 [jdbc.spi.SqlExceptionHelper] Cannot create PoolableConnectionFactory (java.net.ConnectException: Connection refused: connect)
+[ERROR] 07-wrz-2016 08:17:17 [iteraplan.presentation.UserContextInitializationServiceImpl] Data source is not available
+org.springframework.transaction.CannotCreateTransactionException: Could not open Hibernate Session for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.springframework.orm.hibernate5.HibernateTransactionManager.doBegin(HibernateTransactionManager.java:541)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:130)
+	at de.iteratec.iteraplan.presentation.UserContextInitializationServiceImpl.initializeUserContext(UserContextInitializationServiceImpl.java:83)
+	at de.iteratec.springframework.security.filters.CommunityAuthenticationFilter.createAuthentication(CommunityAuthenticationFilter.java:102)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:99)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:154)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:199)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:87)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:342)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:192)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:160)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:956)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:436)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1078)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:625)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:47)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:90)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:112)
+	at org.hibernate.internal.SessionImpl.connection(SessionImpl.java:489)
+	at org.springframework.orm.hibernate5.HibernateTransactionManager.doBegin(HibernateTransactionManager.java:447)
+	... 39 more
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (java.net.ConnectException: Connection refused: connect)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.AbstractSessionImpl$NonContextualJdbcConnectionAccess.obtainConnection(AbstractSessionImpl.java:386)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:87)
+	... 42 more
+Caused by: java.sql.SQLTransientConnectionException: java.net.ConnectException: Connection refused: connect
+	at org.hsqldb.jdbc.JDBCUtil.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.JDBCUtil.sqlException(Unknown Source)
+	at org.hsqldb.jdbc.JDBCConnection.<init>(Unknown Source)
+	at org.hsqldb.jdbc.JDBCDriver.getConnection(Unknown Source)
+	at org.hsqldb.jdbc.JDBCDriver.connect(Unknown Source)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 47 more
+Caused by: org.hsqldb.HsqlException: java.net.ConnectException: Connection refused: connect
+	at org.hsqldb.ClientConnection.openConnection(Unknown Source)
+	at org.hsqldb.ClientConnection.initConnection(Unknown Source)
+	at org.hsqldb.ClientConnection.<init>(Unknown Source)
+	... 54 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.hsqldb.server.HsqlSocketFactory.createSocket(Unknown Source)
+	... 57 more
+[WARN ] 07-wrz-2016 08:23:18 [common.util.IteraplanProperties] Could not access spring resources bundle, using fallback
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:25 [hibernate.orm.deprecation] HHH90000003: Use of DOM4J entity-mode is considered deprecated
+[WARN ] 07-wrz-2016 08:23:33 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 07-wrz-2016 08:23:34 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 07-wrz-2016 08:23:34 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[WARN ] 07-wrz-2016 08:23:34 [hibernate.orm.deprecation] HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.elements]; use collection function syntax instead [elements(null)].
+[INFO ] 07-wrz-2016 08:23:45 [iteraplan.presentation.ContextListener] Build ID is 'Lite Edition v5.3.0-r25931'
+[INFO ] 07-wrz-2016 08:23:45 [iteraplan.presentation.ContextListener] Audit logging is deactivated.
+[INFO ] 07-wrz-2016 08:23:45 [iteraplan.presentation.ContextListener] Last modification logging is activated.
+[WARN ] 07-wrz-2016 11:54:13 [jdbc.spi.SqlExceptionHelper] SQL Warning Code: -1100, SQLState: 02000
+[WARN ] 07-wrz-2016 11:54:13 [jdbc.spi.SqlExceptionHelper] no data
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessFunction mapped to index index.BusinessFunction, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.TechnicalComponentRelease mapped to index index.TechnicalComponentRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ArchitecturalDomain mapped to index index.ArchitecturalDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemRelease mapped to index index.InformationSystemRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ITService mapped to index index.ITService, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Product mapped to index index.Product, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemDomain mapped to index index.InformationSystemDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemInterface mapped to index index.InformationSystemInterface, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessProcess mapped to index index.BusinessProcess, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InfrastructureElement mapped to index index.InfrastructureElement, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessDomain mapped to index index.BusinessDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Project mapped to index index.Project, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessObject mapped to index index.BusinessObject, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:24:10 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessUnit mapped to index index.BusinessUnit, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessFunction mapped to index index.BusinessFunction, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.TechnicalComponentRelease mapped to index index.TechnicalComponentRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ArchitecturalDomain mapped to index index.ArchitecturalDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemRelease mapped to index index.InformationSystemRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ITService mapped to index index.ITService, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Product mapped to index index.Product, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemDomain mapped to index index.InformationSystemDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemInterface mapped to index index.InformationSystemInterface, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessProcess mapped to index index.BusinessProcess, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InfrastructureElement mapped to index index.InfrastructureElement, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessDomain mapped to index index.BusinessDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Project mapped to index index.Project, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessObject mapped to index index.BusinessObject, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:13 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessUnit mapped to index index.BusinessUnit, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessFunction mapped to index index.BusinessFunction, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.TechnicalComponentRelease mapped to index index.TechnicalComponentRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ArchitecturalDomain mapped to index index.ArchitecturalDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemRelease mapped to index index.InformationSystemRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ITService mapped to index index.ITService, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Product mapped to index index.Product, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemDomain mapped to index index.InformationSystemDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemInterface mapped to index index.InformationSystemInterface, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessProcess mapped to index index.BusinessProcess, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InfrastructureElement mapped to index index.InfrastructureElement, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessDomain mapped to index index.BusinessDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Project mapped to index index.Project, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessObject mapped to index index.BusinessObject, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:37 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessUnit mapped to index index.BusinessUnit, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessFunction mapped to index index.BusinessFunction, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.TechnicalComponentRelease mapped to index index.TechnicalComponentRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ArchitecturalDomain mapped to index index.ArchitecturalDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemRelease mapped to index index.InformationSystemRelease, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.ITService mapped to index index.ITService, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Product mapped to index index.Product, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemDomain mapped to index index.InformationSystemDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InformationSystemInterface mapped to index index.InformationSystemInterface, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessProcess mapped to index index.BusinessProcess, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.InfrastructureElement mapped to index index.InfrastructureElement, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessDomain mapped to index index.BusinessDomain, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.Project mapped to index index.Project, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessObject mapped to index index.BusinessObject, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:26:44 [reader.impl.ManagedMultiReader] HSEARCH000289: Requested sort field(s) buildingBlockType.name are not configured for entity type de.iteratec.iteraplan.model.BusinessUnit mapped to index index.BusinessUnit, thus an uninverting reader must be created. You should declare the missing sort fields using @SortableField.
+[WARN ] 07-wrz-2016 12:38:26 [jdbc.spi.SqlExceptionHelper] SQL Warning Code: -1100, SQLState: 02000
+[WARN ] 07-wrz-2016 12:38:26 [jdbc.spi.SqlExceptionHelper] no data
+[WARN ] 07-wrz-2016 13:13:11 [jdbc.spi.SqlExceptionHelper] SQL Warning Code: -1100, SQLState: 02000
+[WARN ] 07-wrz-2016 13:13:11 [jdbc.spi.SqlExceptionHelper] no data
+[WARN ] 07-wrz-2016 14:25:12 [jdbc.spi.SqlExceptionHelper] SQL Warning Code: -1100, SQLState: 02000
+[WARN ] 07-wrz-2016 14:25:12 [jdbc.spi.SqlExceptionHelper] no data
+[WARN ] 07-wrz-2016 14:26:53 [jdbc.spi.SqlExceptionHelper] SQL Warning Code: -1100, SQLState: 02000
+[WARN ] 07-wrz-2016 14:26:53 [jdbc.spi.SqlExceptionHelper] no data
+[WARN ] 07-wrz-2016 15:05:15 [jdbc.spi.SqlExceptionHelper] SQL Warning Code: -1100, SQLState: 02000
+[WARN ] 07-wrz-2016 15:05:15 [jdbc.spi.SqlExceptionHelper] no data
+[WARN ] 07-wrz-2016 15:08:08 [jdbc.spi.SqlExceptionHelper] SQL Warning Code: -1100, SQLState: 02000
+[WARN ] 07-wrz-2016 15:08:08 [jdbc.spi.SqlExceptionHelper] no data

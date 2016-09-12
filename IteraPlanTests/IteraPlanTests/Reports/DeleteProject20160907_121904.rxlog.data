@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="46.07s"
+		durationms="46068"
+		type="root"
+		rid="305e1a78b482ae56"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Andrzej"
+		host="ARTUR-PC"
+		rxversion="6.0.2.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="pl-PL"
+		screenresolution="1920x1080"
+		timestamp="2016-09-07 12:19:07"
+		timestampiso="2016-09-07T10:19:07"
+		timeoutfactor="1"
+		module="DeleteProject">
+		<detail>
+			DeleteProject
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.144"
+			timeRelativeToTestModuleStartTime="00:00.145"
+			timeWallClock="12:19:07"
+			time="00:00.144"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varValidateProjectName
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.170"
+			timeRelativeToTestModuleStartTime="00:00.171"
+			timeWallClock="12:19:07"
+			time="00:00.170"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.IconTrash' at 9;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']/dom[@domain='localhost:8080']//table[#'resultTable']/tbody//td[4]/a[@title='Delete']/a[@innertext='MyNewProject']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.IconTrash"
+				id="42764246a27c49c3a22bedfc01a9583b"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\DeleteProject.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.068"
+			timeRelativeToTestModuleStartTime="00:46.069"
+			timeWallClock="12:19:53"
+			time="00:46.068"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

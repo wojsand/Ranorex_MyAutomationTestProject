@@ -1,0 +1,202 @@
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.68
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 8 2016 20:25:54 UTC
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.68.0
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_67\jre
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_67-b01
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\iteraplan\apache-tomcat-7.0.68\conf\logging.properties
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\iteraplan\apache-tomcat-7.0.68\endorsed
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:13:33 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\iteraplan\apache-tomcat-7.0.68\temp
+wrz 06, 2016 8:13:33 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;c:\pce\sop\lib;c:\pce\smartclient\lib;c:\pce\jdevice\lib\ext;c:\pce\jdevice\lib\extern;c:\pce\jdevice\lib;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\pce\lib;c:\pce\lib\ext;c:\pce\lib\extern;c:\pce\smartclient\bin;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;E:\Brackets\command;E:\nodejs\;C:\Program Files\Git\cmd;.
+wrz 06, 2016 8:13:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+wrz 06, 2016 8:13:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+wrz 06, 2016 8:13:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1891 ms
+wrz 06, 2016 8:13:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+wrz 06, 2016 8:13:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.68
+wrz 06, 2016 8:13:34 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\iteraplan\apache-tomcat-7.0.68\conf\Catalina\localhost\iteraplan.xml
+wrz 06, 2016 8:14:01 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:14:51 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\iteraplan\apache-tomcat-7.0.68\conf\Catalina\localhost\iteraplan.xml has finished in 76,656 ms
+wrz 06, 2016 8:14:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\docs
+wrz 06, 2016 8:14:51 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:14:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\docs has finished in 169 ms
+wrz 06, 2016 8:14:51 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\examples
+wrz 06, 2016 8:14:52 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\examples has finished in 1,108 ms
+wrz 06, 2016 8:14:52 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\host-manager
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\host-manager has finished in 468 ms
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\manager
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\manager has finished in 157 ms
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\ROOT
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\ROOT has finished in 565 ms
+wrz 06, 2016 8:14:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+wrz 06, 2016 8:14:53 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+wrz 06, 2016 8:14:53 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 79282 ms
+wrz 06, 2016 8:17:15 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Could not contact localhost:8005. Tomcat may not be running.
+wrz 06, 2016 8:17:15 AM org.apache.catalina.startup.Catalina stopServer
+SEVERE: Catalina.stop: 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:498)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:343)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:430)
+
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.68
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Feb 8 2016 20:25:54 UTC
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.68.0
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_67\jre
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.7.0_67-b01
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\iteraplan\apache-tomcat-7.0.68\conf\logging.properties
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\iteraplan\apache-tomcat-7.0.68\endorsed
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\iteraplan\apache-tomcat-7.0.68
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\iteraplan\apache-tomcat-7.0.68\temp
+wrz 06, 2016 8:17:26 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_67\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;c:\pce\sop\lib;c:\pce\smartclient\lib;c:\pce\jdevice\lib\ext;c:\pce\jdevice\lib\extern;c:\pce\jdevice\lib;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\pce\lib;c:\pce\lib\ext;c:\pce\lib\extern;c:\pce\smartclient\bin;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\Skype\Phone\;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;E:\Brackets\command;E:\nodejs\;C:\Program Files\Git\cmd;.
+wrz 06, 2016 8:17:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+wrz 06, 2016 8:17:26 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1243 ms
+wrz 06, 2016 8:17:26 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+wrz 06, 2016 8:17:26 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.68
+wrz 06, 2016 8:17:26 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\iteraplan\apache-tomcat-7.0.68\conf\Catalina\localhost\iteraplan.xml
+wrz 06, 2016 8:17:47 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:18:38 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\iteraplan\apache-tomcat-7.0.68\conf\Catalina\localhost\iteraplan.xml has finished in 71,777 ms
+wrz 06, 2016 8:18:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\docs
+wrz 06, 2016 8:18:38 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:18:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\docs has finished in 492 ms
+wrz 06, 2016 8:18:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\examples
+wrz 06, 2016 8:18:39 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:18:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\examples has finished in 234 ms
+wrz 06, 2016 8:18:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\host-manager
+wrz 06, 2016 8:18:39 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:18:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\host-manager has finished in 479 ms
+wrz 06, 2016 8:18:39 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\manager
+wrz 06, 2016 8:18:39 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:18:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\manager has finished in 581 ms
+wrz 06, 2016 8:18:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\ROOT
+wrz 06, 2016 8:18:40 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+wrz 06, 2016 8:18:40 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\iteraplan\apache-tomcat-7.0.68\webapps\ROOT has finished in 129 ms
+wrz 06, 2016 8:18:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+wrz 06, 2016 8:18:40 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+wrz 06, 2016 8:18:40 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 73788 ms
+wrz 06, 2016 1:21:55 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.

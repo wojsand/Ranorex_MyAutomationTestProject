@@ -1,0 +1,12 @@
+# Integrate (conditional) listener for Hibernate Envers => iteraplan History.
+# NOTE: The Hibernate property 'hibernate.listeners.envers.autoRegister' MUST be set to 'false',
+# or otherwise the EnversIntegrator will register Hibernate Envers' own default listeners instead of iteraplan's customized and conditional listeners!
+de.iteratec.iteraplan.persistence.history.HistoryEventListener
+
+# Integrate listener which logs deleted building blocks.
+de.iteratec.iteraplan.persistence.BBCreateDeleteLogger
+
+# Provides Hibernate Metadata
+de.iteratec.iteraplan.persistence.util.HibernateMetadataAccessor
+
+# Hibernate Search will register its own integrator, because it has an own "META/services/org.hibernate.integrator.spi.Integrator" in the jar. Nothing more to do.

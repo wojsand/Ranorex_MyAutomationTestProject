@@ -1,0 +1,552 @@
+﻿<repository
+name="IteraPlanTestsRepository"
+id="1d8e796b-2769-4ad7-ac0b-5d0d28844627"
+rxversion="6.0">
+	<codegen
+	classname="IteraPlanTestsRepository"
+	namespace="IteraPlanTests"/>
+	<rootfolder
+	name="Root"
+	id="47ecf19e-25f1-4180-b634-2ae101cca2a8"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="WelcomeIteraplan"
+		id="0ed0b540-514f-4287-b032-51446c3a984e"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:8080']"
+		addcaps="container,webdocument"
+		refimgid="393bd21e-418e-48b8-bff5-a9df02912faa"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Project"
+			id="a7bd166d-2945-4b2e-af19-01c542aed45a"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//a[#'project']"
+			addcaps="unknown,webelement,atag"
+			refimgid="908a20ba-0e7d-4e27-8e22-85e0ef2d4742">
+				/dom[@domain='localhost:8080']//a[#'project']
+			</item>
+			<item
+			name="SpanTagCreateNewProject"
+			id="a3e8b076-d3b3-424d-8765-b23829ffeac5"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='localhost:8080']//a[#'newElementFromSearch']/span[@innertext~'^Create\ new\ Pro']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="5df12844-5099-41d8-a744-6f18cc8881c5">
+				/dom[@domain='localhost:8080']//a[#'newElementFromSearch']/span[@innertext~'^Create\ new\ Pro']
+			</item>
+			<item
+			name="NameField"
+			id="505fedb8-bc8a-4b1b-b1bd-fe63b7ae53f8"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:8080']//input[#'nameField']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="2a3cdfd3-e0ec-44de-86a1-81634beaf9bb">
+				/dom[@domain='localhost:8080']//input[#'nameField']
+			</item>
+			<item
+			name="DescriptionTextarea"
+			id="1f920875-73c7-4cd5-bd40-3f2c605f5323"
+			searchtimeout="30000ms"
+			capname="textareatag"
+			refpath="/dom[@domain='localhost:8080']//textarea[#'description_textarea']"
+			addcaps="unknown,webelement,textareatag"
+			refimgid="32ac16ba-922d-4f79-a4e4-385ff835ec6b">
+				/dom[@domain='localhost:8080']//textarea[#'description_textarea']
+			</item>
+			<item
+			name="PeriodStartDate"
+			id="b82391a7-a91f-4c56-9d3d-df6860de0a8f"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:8080']//input[#'period_startDate_']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="f9d8db3c-9188-4012-b78e-20c678bb7f20">
+				/dom[@domain='localhost:8080']//input[#'period_startDate_']
+			</item>
+			<item
+			name="PeriodEndDate"
+			id="201be147-9348-4ee6-9298-d05f211ddb06"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='localhost:8080']//input[#'period_endDate_']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="2a0a1844-c0e5-4bfb-9d4b-2f51b4137a93">
+				/dom[@domain='localhost:8080']//input[#'period_endDate_']
+			</item>
+			<item
+			name="TransactionSave"
+			id="39cb75a0-8555-4f64-8eef-69b4cfaba81e"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//div[#'mainContent']/div/div[7]/div/a[@id='transactionSave']"
+			addcaps="unknown,webelement,atag"
+			refimgid="94b7acbe-8835-4455-aeff-2f27eae9219d">
+				/dom[@domain='localhost:8080']//div[#'mainContent']/div/div[7]/?/?/a[@id='transactionSave']
+			</item>
+			<item
+			name="IteraplanHeaderImage"
+			id="d8abb923-41ec-4abd-829e-5f1e1ac1aecc"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			refpath="/dom[@domain='localhost:8080']/body/form/div[1]/div[@id='iteraplanHeader']/a/img[@id='iteraplan_header_image']"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="ae7632a8-9388-4d28-99e7-9bcfbef698b1">
+				/dom[@domain='localhost:8080']/?/?/form[@id='project_show']/?/?/div[@id='iteraplanHeader']/?/?/img[@id='iteraplan_header_image']
+			</item>
+			<folder
+			name="TableTagTableCondensed"
+			id="284ecc3c-f275-4ee1-ba7e-ad4b98b8e9c3"
+			searchtimeout="30000ms"
+			capname="table"
+			refpath="/dom[@domain='localhost:8080']/body/div[4]/div[1]/table"
+			addcaps="unknown,webelement,tabletag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="TdTag3"
+				id="7e0b244a-5254-4831-a67a-a95c7fe1eecb"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				refpath="/dom[@domain='localhost:8080']/body/div[4]/div[1]/table/tbody/tr[2]/td[@innertext='3']"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="4df008a4-50da-4694-a577-9118dd4c4f11">
+					/dom[@domain='localhost:8080']/body/div[4]/?/?/table/tbody/tr[2]/td[@innertext='3']
+				</item>
+				<item
+				name="TdTag30"
+				id="c7aa19e4-0ec7-4d9b-ad90-5b4f8d05ccd5"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				refpath="/dom[@domain='localhost:8080']/body/div[4]/div[1]/table/tbody/tr[5]/td[@innertext='30']"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="ce8fa9d6-f1ec-4e6a-be95-95e7bd9c720c">
+					/dom[@domain='localhost:8080']/body/div[4]/?/?/table/tbody/tr[5]/td[@innertext='30']
+				</item>
+				<item
+				name="SomeThTag"
+				id="487034ac-f193-45d5-a725-76632fced515"
+				searchtimeout="30000ms"
+				capname="thtag"
+				refpath="/dom[@domain='localhost:8080']/body/div[4]/div[1]/table/thead/tr[1]/th[@innertext='»']"
+				addcaps="unknown,webelement,thtag"
+				refimgid="87f41607-01d8-4629-8f58-8f257f578de3">
+					/dom[@domain='localhost:8080']/body/div[4]/?/?/table/thead/?/?/th[@innertext='&#187;']
+				</item>
+				<basepath>
+					/dom[@domain='localhost:8080']/body/div[4]/?/?/table
+				</basepath>
+			</folder>
+			<item
+			name="IconTrash"
+			id="42764246-a27c-49c3-a22b-edfc01a9583b"
+			searchtimeout="30000ms"
+			capname="itag"
+			addcaps="unknown,webelement,itag"
+			refimgid="e5e2c5c9-c334-4f7d-880f-9fe261bd8af7">
+				/dom[@domain='localhost:8080']//table[#'resultTable']/tbody/tr[@innertext=$varValidateProjectName]//a[@innertext=$varValidateProjectName]/a[@title='Delete']/i
+			</item>
+			<item
+			name="ModalFooterOK"
+			id="ca7c2302-8d0d-4b37-b90a-45925ce9cb38"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//a[#'modalFooterOK']"
+			addcaps="unknown,webelement,atag"
+			refimgid="911ced7e-626c-4119-b4c4-a75b1ee7db25">
+				/dom[@domain='localhost:8080']//a[#'modalFooterOK']
+			</item>
+			<item
+			name="UiAutocompleteUiMenuUiWidgetUiWid"
+			id="42d9b9e4-14f3-4b65-9ca3-692e5c754814"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,ultag"
+			refimgid="ccebf246-167f-4f79-878e-49793dee2cc2">
+				/dom[@domain='localhost:8080']/body/ul[2]/?/?/a[@innertext='GreenIT']
+			</item>
+			<item
+			name="UiButtonIconPrimaryUiIconUiIconT"
+			id="0d79e306-f086-4c2c-bcc6-66f83e449a96"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='localhost:8080']//table[#'componentModel.childrenModel.htmlId']/tbody/tr[1]/td[2]/button/span[1]"
+			addcaps="unknown,webelement,spantag"
+			refimgid="6eeccbdb-64b6-4439-b803-bcf46ee998bb">
+				/dom[@domain='localhost:8080']//table[#'componentModel.childrenModel.htmlId']//button[@title='Show All Items']/span[1]
+			</item>
+			<item
+			name="UiActiveMenuitem"
+			id="f2cb6f50-1e69-477c-b443-8a1f62d972ca"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//a[#'ui-active-menuitem']"
+			addcaps="unknown,webelement,atag"
+			refimgid="185bf12e-fab7-4575-8e3e-064e23dd0532">
+				/dom[@domain='localhost:8080']//a[#'ui-active-menuitem']
+			</item>
+			<item
+			name="IconPlus"
+			id="8b04160c-5c04-40b1-bde0-db1e7edcabf1"
+			searchtimeout="30000ms"
+			capname="itag"
+			refpath="/dom[@domain='localhost:8080']//a[#'componentModel.childrenModel.htmlId_add']/i"
+			addcaps="unknown,webelement,itag"
+			refimgid="881f757a-7308-430b-91c4-d27a20007eeb">
+				/dom[@domain='localhost:8080']//a[#'componentModel.childrenModel.htmlId_add']/i
+			</item>
+			<item
+			name="UiAutocompleteUiMenuUiWidgetUiWid1"
+			id="9fde7c39-ef4f-4c14-b7dc-8ea03b516540"
+			searchtimeout="30000ms"
+			capname="ultag"
+			refpath="/dom[@domain='localhost:8080']/body/ul[2]"
+			addcaps="unknown,webelement,ultag"
+			refimgid="6ebfacc3-b148-42e5-8f4c-3bfa270c8870">
+				/dom[@domain='localhost:8080']/body/ul[2]
+			</item>
+			<item
+			name="TransactionSave1"
+			id="f60a9eee-faae-42d4-998e-45e5619090f5"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//div[#'mainContent']/div/div[8]/div/a[@id='transactionSave']"
+			addcaps="unknown,webelement,atag"
+			refimgid="7034b999-2a11-4eb3-85a2-68389925e8bc">
+				/dom[@domain='localhost:8080']//div[#'mainContent']/div/div[8]/?/?/a[@id='transactionSave']
+			</item>
+			<item
+			name="IteraplanHeaderImage1"
+			id="ec2a6d2b-c3a0-4d88-b20f-e748b41e3fce"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			refpath="/dom[@domain='localhost:8080']//img[#'iteraplan_header_image']"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="049ef139-2b92-4152-abf3-0e66bbdd4d9c">
+				/dom[@domain='localhost:8080']//img[#'iteraplan_header_image']
+			</item>
+			<item
+			name="UiButtonIconPrimaryUiIconUiIconT1"
+			id="27bff864-6313-4a4c-98d3-44cbcad3a4d8"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='localhost:8080']//table[#'componentModel.baseComponentsModel.htmlId_table']/tbody/tr/td[2]/button/span[1]"
+			addcaps="unknown,webelement,spantag"
+			refimgid="c24e154b-3805-4f4c-9ddc-769e9401a105">
+				/dom[@domain='localhost:8080']//table[#'componentModel.baseComponentsModel.htmlId_table']//button[@title='Show All Items']/span[1]
+			</item>
+			<item
+			name="UiAutocompleteUiMenuUiWidgetUiWid2"
+			id="db3a04ea-acd2-46b6-9d99-c456f0dbd54f"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,ultag"
+			refimgid="5674d44b-15d8-41b9-8101-bf97ad0c2b5f">
+				/dom[@domain='localhost:8080']/body/ul[3]/?/?/a[@innertext='GreenIT']
+			</item>
+			<item
+			name="IconPlus1"
+			id="d9e683a1-57fb-495e-9f9b-5b753111eda1"
+			searchtimeout="30000ms"
+			capname="itag"
+			refpath="/dom[@domain='localhost:8080']//a[#'componentModel.baseComponentsModel.htmlId_add']/i"
+			addcaps="unknown,webelement,itag"
+			refimgid="14a6f03a-8162-49f4-9aee-83b96b28edf2">
+				/dom[@domain='localhost:8080']//a[#'componentModel.baseComponentsModel.htmlId_add']/i
+			</item>
+			<item
+			name="NewProjectName"
+			id="b734a885-e87a-4ab1-9579-b4c22a8af00f"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="a63d9263-e839-4808-b2b4-cc4f36a61f66">
+				/dom[@domain='localhost:8080']//table[#'resultTable']/tbody///a[@innertext=$varValidateProjectName]
+			</item>
+			<item
+			name="RowFluid"
+			id="5e05d67c-4b9c-4421-9e75-eb32d7ec3ed2"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:8080']//form[#'project_search']/div[2]/div/div"
+			addcaps="unknown,webelement,divtag"
+			refimgid="a5c450c4-d8d0-4178-ba8a-bc1ebd609345">
+				/dom[@domain='localhost:8080']//form[#'project_search']/div[2]/div/div
+			</item>
+			<item
+			name="ResultTableModule"
+			id="c06296d5-4f9d-4dee-a5c2-4cd981332adc"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:8080']//div[#'ResultTableModule']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="3e39c0cc-7995-4c92-a1d2-f995f0a75f88">
+				/dom[@domain='localhost:8080']//div[#'ResultTableModule']
+			</item>
+			<item
+			name="Copy"
+			id="c9b95a51-2cbd-4034-8437-f6868b1627f1"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//table[#'resultTable']/tbody/tr[7]/td[4]/a[@title='Copy']"
+			addcaps="unknown,webelement,atag"
+			refimgid="932ed5eb-136b-413f-bb6b-987885c35338">
+				/dom[@domain='localhost:8080']//table[#'resultTable']/tbody/tr[7]/?/?/a[@title='Copy']
+			</item>
+			<item
+			name="IconOkIconWhite"
+			id="1ffaa80b-e1f4-4eca-ae14-a458bf075f3b"
+			searchtimeout="30000ms"
+			capname="itag"
+			refpath="/dom[@domain='localhost:8080']//a[#'modalFooterOK']/i"
+			addcaps="unknown,webelement,itag"
+			refimgid="85e8a5c3-2bbf-4d8c-b97c-10f7d16d5c30">
+				/dom[@domain='localhost:8080']//a[#'modalFooterOK']/i
+			</item>
+			<item
+			name="ATagMore"
+			id="a4506610-f8d4-4291-8068-06f5d7c1e4aa"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//div[#'transactionbar']/div/a[@innertext='More ']"
+			addcaps="unknown,webelement,atag"
+			refimgid="38d187e9-cb36-4e4a-ae3f-5356cefc6168">
+				/dom[@domain='localhost:8080']//div[#'transactionbar']/?/?/a[@innertext='More&#160;']
+			</item>
+			<item
+			name="TransactionDelete"
+			id="97907344-6100-4173-bd0c-103fe14d8420"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//a[#'transactionDelete']"
+			addcaps="unknown,webelement,atag"
+			refimgid="56e5d8cc-c9c9-421c-991e-8a6c40028f9c">
+				/dom[@domain='localhost:8080']//a[#'transactionDelete']
+			</item>
+			<item
+			name="GreenIT"
+			id="af624a85-dd2d-49c4-b6cb-63474ce0eaa1"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="cb9c81ca-ae93-4df6-8b89-6594784af05b">
+				/dom[@domain='localhost:8080']//table[#'resultTable']/tbody///a[@innertext='GreenIT']
+			</item>
+			<item
+			name="SwitchToInteractiveClient"
+			id="f410e5f6-50e0-4304-9da9-8b2f1e9ee6f6"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//div[#'searchHeader']/a[@innertext~'^Switch\ to\ interactive\ cli']"
+			addcaps="unknown,webelement,atag"
+			refimgid="7903488b-ae18-46fd-9a19-334febefa33e">
+				/dom[@domain='localhost:8080']//div[#'searchHeader']/a[@innertext~'^Switch\ to\ interactive\ cli']
+			</item>
+			<item
+			name="IpDataTiles"
+			id="bac0147e-63a2-4a9c-b3f1-cfd04d205f5f"
+			searchtimeout="30000ms"
+			capname="webelement"
+			refpath="/dom[@domain='localhost:8080']//tag[#'tab-content-0']/div/tag[@tagname='ip-data-tiles']"
+			addcaps="unknown,webelement"
+			refimgid="ffae512e-f0f3-4e2d-914f-35acc402e0fb">
+				/dom[@domain='localhost:8080']//tag[#'tab-content-0']/?/?/tag[@tagname='ip-data-tiles']
+			</item>
+			<item
+			name="HttpLocalhost8080IteraplanClientH1"
+			id="a67b11b7-9888-4ec3-bd56-c6bc1d4bf4e2"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//tag[#'tab-content-0']/div/tag/tag/tag[10]/figure/tag/a[@href~'^http://localhost:8080/ite']"
+			addcaps="unknown,webelement,atag"
+			refimgid="c194b6f4-f5a2-434c-9d46-e6abdd84911e">
+				/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']
+			</item>
+			<item
+			name="GreenIT1"
+			id="157b3c1c-83ad-4acb-ac95-a34832e0fc9c"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[4]/div[@innertext='GreenIT']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="f06896b2-44e0-45ae-a426-98f405b9f87c">
+				/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[4]/div[@innertext='GreenIT']
+			</item>
+			<item
+			name="ShowInClassicClient"
+			id="dd187cb0-14e5-4087-b612-c203d09ef711"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//div[#'to-classic-client-navbar']/a[@innertext='Show in Classic Client']"
+			addcaps="unknown,webelement,atag"
+			refimgid="a85ddcf7-40bc-46bb-bb75-43dffc291ea5">
+				/dom[@domain='localhost:8080']//div[#'to-classic-client-navbar']/a[@innertext='Show in Classic Client']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8080']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="WelcomeIteraplanGoogleChrome"
+		id="f3e50766-7641-4a27-b7a9-d0bcd7acfd46"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Welcome - iteraplan - Google Chrome']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Client"
+			id="626c8164-c6e6-471c-ba52-fd972cc51082"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title~'^Welcome\ -\ iteraplan\ -\ Goo']/container/container[2]/container[2]"
+			addcaps="container,accessible"
+			refimgid="7418e0c9-864d-401f-8f0c-1785fc12f75a">
+				/form[@title~'^Welcome\ -\ iteraplan\ -\ Goo']/container[@accessiblename='Google Chrome']/container[2]/container[2]
+			</item>
+			<basepath>
+				/form[@title~'^Welcome\ -\ iteraplan\ -\ Goo']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Explorer"
+		id="f83cd928-2bd5-4f0a-b602-0a869c2da937"
+		searchtimeout="30000ms"
+		capname="menubar"
+		refpath="/menubar[@processname='explorer']"
+		addcaps="menubar,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ProjectsOverviewIteraplanGoogle"
+			id="139aef11-df5a-473a-9cc7-8f378fd93c29"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container[@caption='Uruchamianie aplikacji']/element[@class='MSTaskListWClass']/toolbar[@accessiblename='Uruchamianie aplikacji']/button[@accessiblename='Projects : Overview - iteraplan - Google Chrome']"
+			addcaps="button,accessible"
+			refimgid="678a38c2-d5bc-4fbc-ac8d-829a56783821">
+				/menubar[@processname='explorer']/?/?/container[@caption='Uruchamianie aplikacji']/?/?/toolbar[@accessiblename='Uruchamianie aplikacji']/button[@accessiblename~'^Projects\ :\ Overview\ -\ ite']
+			</item>
+			<item
+			name="IteraPlanTestsRanorexStudio"
+			id="79805eff-b867-4f99-a7e5-6f4907eec136"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^IteraPlanTests\ -\ Ranorex\ ']"
+			addcaps="button,accessible"
+			refimgid="1377def9-459c-4c55-8358-60e494321786">
+				/menubar[@processname='explorer']/?/?/container[@caption='Uruchamianie aplikacji']/?/?/toolbar[@accessiblename='Uruchamianie aplikacji']/button[@accessiblename~'^IteraPlanTests\ -\ Ranorex\ ']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="varValidateProjectName"
+		id="625f287e-70ba-4bf7-abb1-73be241dae76">
+			MyNewProject
+		</var>
+		<var
+		name="varValidateGreenIT"
+		id="6ee9d214-2fbb-4517-bec4-e751c919e604">
+			GreenIT
+		</var>
+	</variables>
+</repository>

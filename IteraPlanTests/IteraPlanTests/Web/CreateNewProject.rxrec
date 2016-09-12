@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="206d9e48-6838-444d-964f-ad85c322ebdc"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		CreateNewProject
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CreateNewProject"
+	namespace="IteraPlanTests.Web"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="1e871f1b-c29a-4e65-b05a-ef72c38393de"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="127"
+		sy="275"
+		loc="80;5">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="a3e8b076-d3b3-424d-8765-b23829ffeac5">
+				<element
+				role="unknown"
+				prefcap="spantag"
+				capabilities="webelement, spantag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="1"
+				rect="47,270,110,15"
+				snapElem="">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;										Create new Project
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					name="data-original-title"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+					<dynamicattribute
+					name="rel"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='localhost:8080']//a[#'newElementFromSearch']/span[@innertext~'^Create\ new\ Pro']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f12c029a-7d08-4928-990b-6cd4eb5bbf85">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="IteraPlanTestsRepository"
+	id="1d8e796b-2769-4ad7-ac0b-5d0d28844627"
+	rxversion="6.0"
+	relativepath="..\IteraPlanTestsRepository.rxrep">
+		<codegen
+		classname="IteraPlanTestsRepository"
+		namespace="IteraPlanTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="47ecf19e-25f1-4180-b634-2ae101cca2a8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CreateNewProject.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

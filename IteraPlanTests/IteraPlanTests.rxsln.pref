@@ -1,0 +1,16 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{86890F9A-E6C7-4CFA-B820-0DA24C1C021E}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>ddd03e73-9f10-4ab8-afa8-ff61e9774cbd</string>
+      <string>c99ca94e-0a9c-4004-ba61-0845164139c1</string>
+      <string>4b9e8c8c-b49a-446a-b2d9-00e3609e812c</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution IteraPlanTests[IteraPlanTests[Reports[]Copy[]Web[]IteraPlanTestsRepository.rxrep[]]]]&#xD;&#xA;Solution IteraPlanTests\IteraPlanTests\Web\SwitchToInteractiveClient3.rxrec&#xD;&#xA;Solution IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.rxrec" />
+  <StartupProject value="{86890F9A-E6C7-4CFA-B820-0DA24C1C021E}" />
+</Properties>

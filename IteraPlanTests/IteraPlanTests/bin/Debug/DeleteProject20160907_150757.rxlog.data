@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="229b1fe98fb52940"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Andrzej"
+		host="ARTUR-PC"
+		rxversion="6.0.2.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="pl-PL"
+		screenresolution="1920x1080"
+		timestamp="2016-09-07 15:07:59"
+		timestampiso="2016-09-07T13:07:59"
+		timeoutfactor="1"
+		module="DeleteProject">
+		<detail>
+			DeleteProject
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.108"
+			timeRelativeToTestModuleStartTime="00:00.110"
+			timeWallClock="15:07:59"
+			time="00:00.108"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varValidateProjectName
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.124"
+			timeRelativeToTestModuleStartTime="00:00.125"
+			timeWallClock="15:07:59"
+			time="00:00.124"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.MyNewProject' at 34;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//table[#'resultTable']/tbody///a[@innertext='MyNewProject']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.MyNewProject"
+				id="b734a885e87a4ab19579b4c22a8af00f"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\DeleteProject.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.415"
+			timeRelativeToTestModuleStartTime="00:03.416"
+			timeWallClock="15:08:03"
+			time="00:03.415"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.ATagMore' at 65;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//div[#'transactionbar']/?/?/a[@innertext='More ']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.ATagMore"
+				id="a4506610f8d44291806806f5d7c1e4aa"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\DeleteProject.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.870"
+			timeRelativeToTestModuleStartTime="00:05.871"
+			timeWallClock="15:08:05"
+			time="00:05.870"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.TransactionDelete' at 57;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//a[#'transactionDelete']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.TransactionDelete"
+				id="9790734461004173bd0c103fe14d8420"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\DeleteProject.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.441"
+			timeRelativeToTestModuleStartTime="00:07.442"
+			timeWallClock="15:08:07"
+			time="00:07.441"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.ModalFooterOK' at 49;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//a[#'modalFooterOK']"
+				fullname="IteraPlanTestsRepository.WelcomeIteraplan.ModalFooterOK"
+				id="ca7c23028d0d4b37b90a45925ce9cb38"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\DeleteProject.cs"
+				codeline="104"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

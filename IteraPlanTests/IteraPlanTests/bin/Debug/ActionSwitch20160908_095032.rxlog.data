@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="19c0643afa601beb"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Andrzej"
+		host="ARTUR-PC"
+		rxversion="6.0.2.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="pl-PL"
+		screenresolution="1920x1080"
+		timestamp="2016-09-08 09:50:36"
+		timestampiso="2016-09-08T07:50:36"
+		timeoutfactor="1"
+		module="ActionSwitch">
+		<detail>
+			ActionSwitch
+		</detail>
+		<errmsg>
+			Failed to find item 'ActionSwitchRepository.WelcomeIteraplan.HttpLocalhost8080IteraplanClientH'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.116"
+			timeRelativeToTestModuleStartTime="00:00.116"
+			timeWallClock="09:50:36"
+			time="00:00.116"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.Data' at 8;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']/body/div/div//tag[@tagname='md-pagination-wrapper']/tag[1]/span[@innertext='Data']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.Data"
+				id="dc29efb715c6450dbc188e80aa923270"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.589"
+			timeRelativeToTestModuleStartTime="00:01.589"
+			timeWallClock="09:50:37"
+			time="00:01.589"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.VisualizePlusReport' at 74;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']/body/div/div//tag[@tagname='md-pagination-wrapper']/tag[2]/span[@innertext='Visualize + Report']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.VisualizePlusReport"
+				id="44898485513d462a8f11b1e7542e757b"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.844"
+			timeRelativeToTestModuleStartTime="00:02.844"
+			timeWallClock="09:50:39"
+			time="00:02.844"
+			level="Info"
+			category="Mouse"
+			errimg=".\ActionSw_454430c6_4f4616f0_trace.jpg"
+			errthumb=".\ActionSw_454430c6_4f4616f0_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.Data' at 23;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']/body/div/div//tag[@tagname='md-pagination-wrapper']/tag[1]/span[@innertext='Data']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.Data"
+				id="dc29efb715c6450dbc188e80aa923270"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.179"
+			timeRelativeToTestModuleStartTime="00:04.179"
+			timeWallClock="09:50:40"
+			time="00:04.179"
+			level="Info"
+			category="Mouse"
+			errimg=".\ActionSw_454430c6_12d84ab1_trace.jpg"
+			errthumb=".\ActionSw_454430c6_12d84ab1_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'WelcomeIteraplan.HttpLocalhost8080IteraplanClientH' at 148;37.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.HttpLocalhost8080IteraplanClientH"
+				id="03c2e6925f9847ec80b9e681022f126e"
+				timeout="60000"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:04.413"
+			timeRelativeToTestModuleStartTime="01:04.413"
+			timeWallClock="09:51:40"
+			time="01:04.413"
+			level="Error"
+			category="Module"
+			errimg=".\ActionSw_454430c6_0abf619d_trace.jpg"
+			errthumb=".\ActionSw_454430c6_0abf619d_trace_thumb.jpg">
+			<message>
+				Failed to find item 'ActionSwitchRepository.WelcomeIteraplan.HttpLocalhost8080IteraplanClientH'.<br/>No element found for path '/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   w Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   w Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   w Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   w IteraPlanTests.Web.ActionSwitchRepositoryFolders.WelcomeIteraplanAppFolder.get_HttpLocalhost8080IteraplanClientH() w c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.Repository.cs:wiersz 959
+   w IteraPlanTests.Web.ActionSwitch.Ranorex.Core.Testing.ITestModule.Run() w c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs:wiersz 95
+   w Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\ActionSwitch.cs"
+				codeline="95"
+				type="repoitem"
+				path="/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']"
+				fullname="ActionSwitchRepository.WelcomeIteraplan.HttpLocalhost8080IteraplanClientH"
+				id="03c2e6925f9847ec80b9e681022f126e"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="0e06e921-6266-4e0e-aae0-cfd8dacc1946"
+embeddedrepository="False"
+mode="Global">
+	<name>
+		CheckIfProjectExist
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckIfProjectExist"
+	namespace="IteraPlanTests.Web"/>
+	<variables/>
+	<recorditems>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="fd2079fc-e39e-4319-b30c-15086a6aabd8"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="af624a85-dd2d-49c4-b6cb-63474ce0eaa1">
+				<element
+				role="unknown"
+				prefcap="atag"
+				capabilities="webelement, atag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="358,649,47,15"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						htmlink
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						GreenIT
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://localhost:8080/iteraplan/show/project/104
+					</attribute>
+					<dynamicattribute
+					name="onclick"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False">
+						return false;
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='localhost:8080']//table[#'resultTable']/tbody/tr[5]//a[@innertext='GreenIT']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b37ec03e-d357-4df6-adcd-842952219038">
+				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
+			</helperscreenshot>
+			<matchname/>
+			<matchvalue/>
+		</validationitem>
+	</recorditems>
+	<repository
+	name="IteraPlanTestsRepository"
+	id="1d8e796b-2769-4ad7-ac0b-5d0d28844627"
+	rxversion="6.0"
+	relativepath="..\IteraPlanTestsRepository.rxrep">
+		<codegen
+		classname="IteraPlanTestsRepository"
+		namespace="IteraPlanTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="47ecf19e-25f1-4180-b634-2ae101cca2a8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckIfProjectExist.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

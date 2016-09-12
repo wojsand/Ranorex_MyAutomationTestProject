@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.0"
+id="7ee4d614-3081-40d4-8633-9572e6b5475d"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		SaveEntryData
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SaveEntryData"
+	namespace="IteraPlanTests.Web"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="e6a1d36f-54f6-40f8-afeb-14350eda7934"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="1796"
+		sy="979"
+		loc="24;14">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="f60a9eee-faae-42d4-998e-45e5619090f5">
+				<element
+				role="unknown"
+				prefcap="atag"
+				capabilities="webelement, atag"
+				flavor="chromeweb"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="True"
+				index="0"
+				rect="1772,965,56,28"
+				snapElem="">
+					<attribute
+					name="class"
+					type="System.String">
+						btn btn-primary
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						transactionSave
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#10;				Save
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						http://localhost:8080/iteraplan/show/project?execution=e23s2#
+					</attribute>
+					<dynamicattribute
+					name="onclick"
+					type="System.String"
+					description="Dynamic HTML attribute."
+					readonly="False"/>
+				</element>
+				<path>
+					/dom[@domain='localhost:8080']//div[#'mainContent']/div/div[8]/?/?/a[@id='transactionSave']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3870ac4e-b769-45da-a2de-c20ca7e8e0ad">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADaAOoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo949f
+0o3j1/So6KAJN49f0o3j1/So6KAJN49f0o3j1/So6KAJN49f0o3j1/So6KAJN49f0o3j1/So6KAJ
+N49f0o3j1/So6KAJN49f0o3j1/So6KAJN49f0o3j1/So6KAJN49f0o3j1/So6KAJN49f0o3j1/So
+6KAJN49f0o3j1/So6KAJN49f0o3j1/So6KAJN49f0o3j1/So6KAJQc9Kiuf9UaenU0y5/wBUaAKd
+FFFAFyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigB6
+dTTLn/VGnp1NMuf9UaAKdFFFAFyil2e5o2e5oASil2e5o2e5oASil2e5o2e5oASil2e5o2e5oASi
+l2e5o2e5oASil2e5o2e5oASil2e5o2e5oASil2e5o2e5oASil2e5o2e5oASil2e5o2e5oASil2e5
+o2e5oASil2e5o2e5oASil2e5o2e5oAcnU0y5/wBUaegwTTLn/VGgCnRRRQBoUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAA+8ajuf9UakH3jUdz/qjQBT
+ooooA0KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAA
+feNR3P8AqjUg+8ajuf8AVGgCnRRRQBfwfQfnRg+g/OnUUANwfQfnRg+g/OnUUANwfQfnRg+g/OnU
+UANwfQfnRg+g/OnUUANwfQfnRg+g/OnUUANwfQfnRg+g/OnUUANwfQfnRg+g/OnUUANwfQfnRg+g
+/OnUUANwfQfnRg+g/OnUUANwfQfnRg+g/OnUUANwfQfnRg+g/OnUUANwfQfnRg+g/OnUUANwfQfn
+Rg+g/OnUUAIBUdz/AKo1LUVz/qjQBTooooA0aKKKACiiigAooooAKKKKACiiigCG8uPstq823ftx
+xnGecVmtrjJjdZlcjIy+Mj8qt6x/yDJv+A/+hCua8xv7x9KqnTdSVr2NXKNOlzON3c2f7f8A+nb/
+AMif/Wo/t/8A6dv/ACJ/9asbe394/nT5EniUGRJUB6FlIrb6t/eMfrMP+ff4s1v7f/6dv/In/wBa
+j+3/APp2/wDIn/1qxvMb+8fzo8xv7x/On9Vf8wfWofyfizZ/t/8A6dv/ACJ/9aj+3/8Ap2/8if8A
+1qxvMb+8fzo8xv7x/Oj6q/5g+tQ/k/FnRWOqfapzG0PlYXdktn09ver29P7y/nWPpR/4mR/69k/9
+BWtnNcq63NqqSa5Va6TE3p/eX86N6f3l/OmxzRS58uRHx12sDin5pmQm9P7y/nRvT+8v50uaM0AJ
+vT+8v50u9P7y/nSbxuK5GRyRmlzQAtRXP+qNPj+7+J/nTLn/AFRoAp0UUUAaNFFFABRRRQAUUUUA
+FFFFABRRRQBS1j/kGTf8B/8AQhXLdzXU6x/yDJv+A/8AoQrlj1Nb4b436DrfwF6/oiS23/aYvLUM
+4YFQTjJq84E8Nx5XnRvuBkifBBOegPY1m9Kkae4m2xtJNLk/KuS36V1yXU40+hc2QLkz2ZiUMdrC
+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
+R/8Avo0vnS/89H/76NO4WP/Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="IteraPlanTestsRepository"
+	id="1d8e796b-2769-4ad7-ac0b-5d0d28844627"
+	rxversion="6.0"
+	relativepath="..\IteraPlanTestsRepository.rxrep">
+		<codegen
+		classname="IteraPlanTestsRepository"
+		namespace="IteraPlanTests"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="47ecf19e-25f1-4180-b634-2ae101cca2a8"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SaveEntryData.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

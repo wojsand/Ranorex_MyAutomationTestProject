@@ -1,0 +1,142 @@
+﻿<repository
+name="MyNewRepository"
+id="89a664ff-0995-4c76-b4f3-147a3dc0bc5a"
+rxversion="6.0">
+	<codegen
+	classname="MyNewRepository"
+	namespace="IteraPlanTests.Web"/>
+	<rootfolder
+	name="Root"
+	id="a9d5f109-ef16-4681-90a9-802608ee6ba0"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="WelcomeIteraplan"
+		id="21735fbb-8c42-40ee-b23c-b09dd3270c95"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:8080' and @caption='Welcome - iteraplan']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="SwitchToInteractiveClient"
+			id="48667847-2a36-431c-8d31-2aad315c503a"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080' and @caption='Welcome - iteraplan']//div[#'searchHeader']/a[@innertext~'^Switch\ to\ interactive\ cli']"
+			addcaps="unknown,webelement,atag"
+			refimgid="e3dc874d-24bd-4a19-904e-7ab33459e8dd">
+				/dom[@caption='Welcome - iteraplan']//div[#'searchHeader']/a[@innertext~'^Switch\ to\ interactive\ cli']
+			</item>
+			<basepath>
+				/dom[@caption='Welcome - iteraplan']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="IteraplanHome"
+		id="418b3711-9753-4d62-8ed6-294aad92ca89"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:8080' and @caption='iteraplan Home']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="IpDataTiles"
+			id="d23ba2ec-dcab-4b9c-9778-d1ef30b3e012"
+			searchtimeout="30000ms"
+			capname="webelement"
+			refpath="/dom[@domain='localhost:8080' and @caption='iteraplan Home']//tag[#'tab-content-0']/div/tag[@tagname='ip-data-tiles']"
+			addcaps="unknown,webelement"
+			refimgid="55b029f4-77af-4bba-bde0-aa8a4bb3022d">
+				/dom[@caption='iteraplan Home']//tag[#'tab-content-0']/?/?/tag[@tagname='ip-data-tiles']
+			</item>
+			<item
+			name="HttpLocalhost8080IteraplanClientH"
+			id="7e3905d8-65aa-45b9-999b-f152b55d4c04"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080' and @caption='iteraplan Home']//tag[#'tab-content-0']/div/tag/tag/tag[10]/figure/tag/a[@href~'^http://localhost:8080/ite']"
+			addcaps="unknown,webelement,atag"
+			refimgid="45318ce8-f61d-4648-b8df-850c9457e3d4">
+				/dom[@caption='iteraplan Home']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']
+			</item>
+			<basepath>
+				/dom[@caption='iteraplan Home']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Projects"
+		id="c1941e60-de42-4f6a-94a5-92093be9be42"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:8080' and @caption='Projects' and @page='' and @path='/iteraplan/client/' and @browsername='Chrome']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="GreenIT"
+			id="54ccb3fd-54df-464a-8214-8eb862f89cd4"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:8080' and @caption='Projects' and @page='' and @path='/iteraplan/client/' and @browsername='Chrome']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[4]/div[@innertext='GreenIT']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="b48cd901-ec3c-4306-88dc-6e88185571de">
+				/dom[@caption='Projects' and @page='' and @path='/iteraplan/client/' and @browsername='Chrome']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[4]/div[@innertext='GreenIT']
+			</item>
+			<basepath>
+				/dom[@caption='Projects' and @page='' and @path='/iteraplan/client/' and @browsername='Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report>
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="42cb5fe2c720b63"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Andrzej"
+		host="ARTUR-PC"
+		rxversion="6.0.2.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="pl-PL"
+		screenresolution="1920x1080"
+		timestamp="2016-09-05 10:36:11"
+		timestampiso="2016-09-05T08:36:11"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.7m"
+			durationms="99895"
+			type="test suite"
+			rid="3927c3c03371d8a"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="IteraPlanTests"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="2">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="1.7m"
+				durationms="99883"
+				type="test case"
+				rid="11a007f2125623f0"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="WebApp_AddProject"
+				testcaseid="1c8329b6-f9b9-4b8b-8ef9-fc8dd7cd2c31"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="175ms"
+					durationms="175"
+					type="test module"
+					rid="70459a40ce5d570"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="OpenIteraPlan"
+					moduleid="7f1621bb-6152-47f2-a629-83d01a40377f"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.133"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="10:36:11"
+						time="00:00.133"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'http://localhost:8080/iteraplan' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\OpenIteraPlan.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="3.52s"
+					durationms="3522"
+					type="test module"
+					rid="78c76b5b92ab0bd"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SearchProjects"
+					moduleid="20e5b0fc-62f9-46a9-a8c3-d082b27871df"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.310"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="10:36:11"
+						time="00:00.310"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.IteraplanHeaderImage1' at 109;24.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//img[#'iteraplan_header_image']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.IteraplanHeaderImage1"
+							id="ec2a6d2bc3a04d88b20fe748b41e3fce"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SearchProjects.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.589"
+						timeRelativeToTestModuleStartTime="00:02.283"
+						timeWallClock="10:36:13"
+						time="00:02.589"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.Project' at 61;52.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//a[#'project']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.Project"
+							id="a7bd166d29454b2eaf1901c542aed45a"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SearchProjects.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.84s"
+					durationms="2841"
+					type="test module"
+					rid="bcece2fbc8e1c2"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="CreateNewProject"
+					moduleid="206d9e48-6838-444d-964f-ad85c322ebdc"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.834"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="10:36:15"
+						time="00:03.834"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.SpanTagCreateNewProject' at 80;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//a[#'newElementFromSearch']/span[@innertext~'^Create\ new\ Pro']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.SpanTagCreateNewProject"
+							id="a3e8b076d3b3424d8765b23829ffeac5"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\CreateNewProject.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="18.33s"
+					durationms="18326"
+					type="test module"
+					rid="36ff1a97d96dd0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="AddNewProject_1"
+					moduleid="375bd994-1079-4fdd-a441-51823d5abb27"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.679"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="10:36:17"
+						time="00:06.679"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.NameField' at 50;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//input[#'nameField']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.NameField"
+							id="505fedb8bc8a4b1bb1bdfe63b7ae53f8"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.564"
+						timeRelativeToTestModuleStartTime="00:02.891"
+						timeWallClock="10:36:20"
+						time="00:09.564"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LShiftKey down}M{LShiftKey up}y{LShiftKey down}N{LShiftKey up}ew{LShiftKey down}P{LShiftKey up}roject' with focus on 'WelcomeIteraplan.NameField'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//input[#'nameField']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.NameField"
+							id="505fedb8bc8a4b1bb1bdfe63b7ae53f8"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.629"
+						timeRelativeToTestModuleStartTime="00:04.956"
+						timeWallClock="10:36:22"
+						time="00:11.629"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.DescriptionTextarea' at 78;50.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//textarea[#'description_textarea']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.DescriptionTextarea"
+							id="1f92087573c74cd5bd403f2c605f5323"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.927"
+						timeRelativeToTestModuleStartTime="00:06.254"
+						timeWallClock="10:36:24"
+						time="00:12.927"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LShiftKey down}D{LShiftKey up}escription{Space}this{Space}project' with focus on 'WelcomeIteraplan.DescriptionTextarea'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//textarea[#'description_textarea']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.DescriptionTextarea"
+							id="1f92087573c74cd5bd403f2c605f5323"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.080"
+						timeRelativeToTestModuleStartTime="00:09.407"
+						timeWallClock="10:36:27"
+						time="00:16.080"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.PeriodStartDate' at 87;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//input[#'period_startDate_']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.PeriodStartDate"
+							id="b82391a7a91f4c569d3ddf6860de0a8f"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.390"
+						timeRelativeToTestModuleStartTime="00:10.717"
+						timeWallClock="10:36:28"
+						time="00:17.390"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.TableTagTableCondensed.SomeThTag' at 10;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/body/div[4]/?/?/table/thead/?/?/th[@innertext='»']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.TableTagTableCondensed.SomeThTag"
+							id="487034acf19345d5a72576632fced515"
+							timeout="90000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.697"
+						timeRelativeToTestModuleStartTime="00:12.023"
+						timeWallClock="10:36:29"
+						time="00:18.697"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.TableTagTableCondensed.TdTag3' at 16;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/body/div[4]/?/?/table/tbody/tr[2]/td[@innertext='3']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.TableTagTableCondensed.TdTag3"
+							id="7e0b244a52544831a67aa95c7fe1eecb"
+							timeout="90000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.923"
+						timeRelativeToTestModuleStartTime="00:13.249"
+						timeWallClock="10:36:31"
+						time="00:19.923"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.PeriodEndDate' at 61;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//input[#'period_endDate_']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.PeriodEndDate"
+							id="201be14793484ee69298d05f211ddb06"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.193"
+						timeRelativeToTestModuleStartTime="00:14.519"
+						timeWallClock="10:36:32"
+						time="00:21.193"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.TableTagTableCondensed.SomeThTag' at 11;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/body/div[4]/?/?/table/thead/?/?/th[@innertext='»']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.TableTagTableCondensed.SomeThTag"
+							id="487034acf19345d5a72576632fced515"
+							timeout="90000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.470"
+						timeRelativeToTestModuleStartTime="00:15.796"
+						timeWallClock="10:36:33"
+						time="00:22.470"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.TableTagTableCondensed.SomeThTag' at 8;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/body/div[4]/?/?/table/thead/?/?/th[@innertext='»']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.TableTagTableCondensed.SomeThTag"
+							id="487034acf19345d5a72576632fced515"
+							timeout="90000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.789"
+						timeRelativeToTestModuleStartTime="00:17.115"
+						timeWallClock="10:36:35"
+						time="00:23.789"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.TableTagTableCondensed.TdTag30' at 10;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/body/div[4]/?/?/table/tbody/tr[5]/td[@innertext='30']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.TableTagTableCondensed.TdTag30"
+							id="c7aa19e40ec74d9bad905b4f8d05ccd5"
+							timeout="90000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\AddNewProject_1.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="6.13s"
+					durationms="6129"
+					type="test module"
+					rid="12e15499481597f8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="InstantRelatesProject"
+					moduleid="549c5ba8-accb-46c5-9eba-bb3f1e5b3ffe"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.009"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="10:36:36"
+						time="00:25.009"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.UiButtonIconPrimaryUiIconUiIconT1' at 1;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//table[#'componentModel.baseComponentsModel.htmlId_table']//button[@title='Show All Items']/span[1]"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.UiButtonIconPrimaryUiIconUiIconT1"
+							id="27bff86463134a4c98d344cbcad3a4d8"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantRelatesProject.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.783"
+						timeRelativeToTestModuleStartTime="00:01.780"
+						timeWallClock="10:36:38"
+						time="00:26.783"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid2' at 329;128.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/body/ul[3]/?/?/a[@innertext='GreenIT']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid2"
+							id="db3a04eaacd246b69d99c456f0dbd54f"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantRelatesProject.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.124"
+						timeRelativeToTestModuleStartTime="00:03.121"
+						timeWallClock="10:36:39"
+						time="00:28.124"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid2' at 147;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/body/ul[3]/?/?/a[@innertext='GreenIT']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.UiAutocompleteUiMenuUiWidgetUiWid2"
+							id="db3a04eaacd246b69d99c456f0dbd54f"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantRelatesProject.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.425"
+						timeRelativeToTestModuleStartTime="00:04.422"
+						timeWallClock="10:36:40"
+						time="00:29.425"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.IconPlus1' at 8;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//a[#'componentModel.baseComponentsModel.htmlId_add']/i"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.IconPlus1"
+							id="d9e683a157fb495e9f9b5b753111eda1"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\InstantRelatesProject.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="1.54s"
+					durationms="1535"
+					type="test module"
+					rid="5cfee4da5512490"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SaveEntryData"
+					moduleid="7ee4d614-3081-40d4-8633-9572e6b5475d"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.144"
+						timeRelativeToTestModuleStartTime="00:00.005"
+						timeWallClock="10:36:42"
+						time="00:31.144"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.TransactionSave1' at 24;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//div[#'mainContent']/div/div[8]/?/?/a[@id='transactionSave']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.TransactionSave1"
+							id="f60a9eeefaae42d4998e45e5619090f5"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SaveEntryData.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.45s"
+					durationms="2450"
+					type="test module"
+					rid="519e45434611311"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SearchProjects"
+					moduleid="20e5b0fc-62f9-46a9-a8c3-d082b27871df"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.680"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="10:36:43"
+						time="00:32.680"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.IteraplanHeaderImage1' at 109;24.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//img[#'iteraplan_header_image']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.IteraplanHeaderImage1"
+							id="ec2a6d2bc3a04d88b20fe748b41e3fce"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SearchProjects.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.922"
+						timeRelativeToTestModuleStartTime="00:01.245"
+						timeWallClock="10:36:45"
+						time="00:33.922"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.Project' at 61;52.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//a[#'project']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.Project"
+							id="a7bd166d29454b2eaf1901c542aed45a"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\SearchProjects.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="3.98s"
+					durationms="3984"
+					type="test module"
+					rid="636fd2b6e3ba174"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="DeleteProject"
+					moduleid="a52715b8-1b51-49c5-ae36-619e1a0854cb"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.140"
+						timeRelativeToTestModuleStartTime="00:00.009"
+						timeWallClock="10:36:46"
+						time="00:35.140"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.IconTrash' at 9;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//table[#'resultTable']/tbody/tr[11]/td[4]/a[@title='Delete']/i"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.IconTrash"
+							id="42764246a27c49c3a22bedfc01a9583b"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\DeleteProject.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.976"
+						timeRelativeToTestModuleStartTime="00:02.845"
+						timeWallClock="10:36:49"
+						time="00:37.976"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.ModalFooterOK' at 27;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']//a[#'modalFooterOK']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.ModalFooterOK"
+							id="ca7c23028d0d4b37b90a45925ce9cb38"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\DeleteProject.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1m"
+					durationms="60873"
+					type="test module"
+					rid="1638a5d87cde9a13"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="CloseIteraPlan"
+					moduleid="f81fdc3e-416c-4479-ad61-82ab20541aef"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to find item 'IteraPlanTestsRepository.WelcomeIteraplan.IteraplanHeaderImage'.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:39.125"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="10:36:50"
+						time="00:39.125"
+						level="Info"
+						category="Mouse"
+						errimg="images_IteraPla_15617459\IteraPla_15617459_50b8980a_trace.jpg"
+						errthumb="images_IteraPla_15617459\IteraPla_15617459_50b8980a_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'WelcomeIteraplan.IteraplanHeaderImage' at 79;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/?/?/form[@id='project_show']/?/?/div[@id='iteraplanHeader']/?/?/img[@id='iteraplan_header_image']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.IteraplanHeaderImage"
+							id="d8abb92341ec4abd829e5f1e1ac1aecc"
+							timeout="60000"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\CloseIteraPlan.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:39.589"
+						timeRelativeToTestModuleStartTime="01:00.470"
+						timeWallClock="10:37:50"
+						time="01:39.589"
+						level="Error"
+						category="Module"
+						errimg="images_IteraPla_15617459\IteraPla_15617459_00dd8476_trace.jpg"
+						errthumb="images_IteraPla_15617459\IteraPla_15617459_00dd8476_trace_thumb.jpg">
+						<message>
+							Failed to find item 'IteraPlanTestsRepository.WelcomeIteraplan.IteraplanHeaderImage'.<br/>No element found for path '/dom[@domain='localhost:8080']/?/?/form[@id='project_show']/?/?/div[@id='iteraplanHeader']/?/?/img[@id='iteraplan_header_image']' within 1m.
+						</message>
+						<metainfo
+							stacktrace="   w Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)
+   w Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)
+   w Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)
+   w IteraPlanTests.IteraPlanTestsRepositoryFolders.WelcomeIteraplanAppFolder.get_IteraplanHeaderImage() w c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\IteraPlanTestsRepository.cs:wiersz 361
+   w IteraPlanTests.Web.CloseIteraPlan.Ranorex.Core.Testing.ITestModule.Run() w c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\CloseIteraPlan.cs:wiersz 83
+   w Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\Andrzej\Documents\Ranorex\RanorexStudio Projects\IteraPlanTests\IteraPlanTests\Web\CloseIteraPlan.cs"
+							codeline="83"
+							type="repoitem"
+							path="/dom[@domain='localhost:8080']/?/?/form[@id='project_show']/?/?/div[@id='iteraplanHeader']/?/?/img[@id='iteraplan_header_image']"
+							fullname="IteraPlanTestsRepository.WelcomeIteraplan.IteraplanHeaderImage"
+							id="d8abb92341ec4abd829e5f1e1ac1aecc"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="0"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="IteraPlanTests"
+      id="863200a5-4309-45aa-9d03-75792b5f6891"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="IteraPlanTests"
+      id="863200a5-4309-45aa-9d03-75792b5f6891"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

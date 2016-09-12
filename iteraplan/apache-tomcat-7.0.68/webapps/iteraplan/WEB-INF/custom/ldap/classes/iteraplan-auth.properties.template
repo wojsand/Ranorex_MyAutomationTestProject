@@ -1,0 +1,77 @@
+# A list of LDAP server URLs. Servers will be connected to in the specified order.
+# An url should start with 'ldap://' and should preferably include the port number. 
+# Omit any trailing slashes. Unused properties must not be commented out! Leave their values empty.
+ldap.url1=@LDAP.URL1@
+ldap.url2=
+ldap.url3=
+ldap.url4=
+
+# The base suffix from which all operations should originate. Example: dc=iteratec,dc=de
+ldap.base=@LDAP.BASE@
+
+# The user distinguished name (principal) to use for getting authenticated contexts as system user.
+# In an Active Directory, it is best written as username@FullDomainName, e.g. abc@iteratec.de
+ldap.userDn=@LDAP.USERDN@
+
+# The system user's password (credentials) to use for getting authenticated contexts.
+ldap.password=@LDAP.PASSWORD@
+
+# The LDAP search filter that shall be used to identify the user object which corresponds to the user
+# who is trying to login. It should not return more than one result.
+# In many directories the user object DNs do not contain the user name, but the common name. 
+# Therefore a filter must be used to find the user name (represented by the placeholder {0}). 
+# Make sure the filter contains this placeholder!
+# The default value is typical of Active Directory installations.
+# Only change this property if you have an understanding of LDAP filter syntax, your 
+# directory structure and you know what you are doing! 
+#ldap.users.searchfilter=(&(sAMAccountName={0})(objectClass=user))
+ldap.users.searchfilter=@LDAP.USERS.SEARCHFILTER@
+
+# Subtree (relative to ldap.base) where user objects shall be searched. The search filter will only 
+# be applied to that subtree, which will slightly reduce the load on the directory server.
+# It is safe to leave this value empty. If you specify a subtree, be sure that you don't exclude 
+# legitimate users unintentionally.
+#  
+# If de.iteratec.springframework.security.ldap.search.FilterBasedLdapUserSearchWithMultipleSearchBases
+# is used in applicationContext-spring-security.xml, you can specify several subtrees separated by
+# '|' here. For example:
+# ldap.users.searchbase=cn=Users|cn=Employee,ou=Research
+ldap.users.searchbase=
+
+# The roles filter that finds the roles where the user is a member of. The placeholder {0} is replaced
+# by the user object's DN. Alternatively, you can use {1} to search with the user name.
+# Most users can keep the default value, as 'member' is the most common attribute. Some directories
+# use 'uniqueMember', though. 
+#ldap.roles.membershipfilter=(member={0})
+ldap.roles.membershipfilter=@LDAP.ROLES.MEMBERSHIPFILTER@
+
+# Subtree (i.e. relative to ldap.base!) where role objects shall be searched. If you leave this property empty,
+# the entire directory will be searched, yielding *every* role of the user. You can restrict the search
+# scope to a subtree with this property. The safest bet is to leave it empty.
+ldap.roles.searchbase=
+
+# Prefix for all LDAP role names. This is only useful, if all iteraplan roles are 
+# guaranteed to carry this prefix in their name 
+# Effectively, a user with the LDAP role 'XYZ' will receive an iteraplan role with the 
+# name '${ldap.roles.nameprefix}XYZ'
+# For most users, this property should remain empty, i.e. iteraplan role names and LDAP role names
+# are mapped 1:1 onto each other.
+ldap.roles.nameprefix=
+
+# A role name that will be assigned *all* users that log in.
+# This is useful if you want to grant a minimum set of privileges to all users, regardless of
+# any roles that are assigned explicitly. In order to make this setting effective, you also 
+# have to create a role with the exact same name through iteraplan's role management.
+# Note that if you set the option 'ldap.roles.nameprefix' to a non-empty value, the default role 
+# name must explicitly include the prefix (if desired).  
+# The default value must NOT be EMPTY. The default value set here is '_.-._', because we believe 
+# that it exists in no real database; i.e. effectively no default role is assigned.
+ldap.roles.defaultrole=_.-._
+
+# The names of the fields within the directory to be used for users firstname, lastname and email address
+ldap.attribute.firstname=givenname
+ldap.attribute.lastname=sn
+ldap.attribute.email=mail
+
+# For LDAP with SSO it might be necessary to modify the logon-user header variable. 
+logon.user=@LOGON.USER@
