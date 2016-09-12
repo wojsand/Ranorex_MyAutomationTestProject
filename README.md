@@ -13,8 +13,11 @@ Main requirements:
 links to apps:
 
 
-* tool to recording automation test:[Ranorex](http://www.ranorex.com/free-trial.html) 
-* example app to testing:[Iteraplan](https://www.iteraplan.de/download/iteraplan-lite-edition-with-sample-data/) 
+* tool to recording automation test: [Ranorex](http://www.ranorex.com/free-trial.html) 
+* example app to testing: [Iteraplan](https://www.iteraplan.de/download/iteraplan-lite-edition-with-sample-data/) 
+
+
+Run tests: before running the tests you need to have closed all browsers and run locally localhost:8080/iteraplan
 
 
 > Note: Please, define properly connector to file IteraPlanTests\IteraPlan_SampleData.xlsx 
