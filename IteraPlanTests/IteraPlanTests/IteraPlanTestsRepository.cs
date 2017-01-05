@@ -30,6 +30,7 @@ namespace IteraPlanTests
         IteraPlanTestsRepositoryFolders.WelcomeIteraplanAppFolder _welcomeiteraplan;
         IteraPlanTestsRepositoryFolders.WelcomeIteraplanGoogleChromeAppFolder _welcomeiteraplangooglechrome;
         IteraPlanTestsRepositoryFolders.ExplorerAppFolder _explorer;
+        IteraPlanTestsRepositoryFolders.OnetSzukajWGoogleAppFolder _onetszukajwgoogle;
 
         /// <summary>
         /// Gets the singleton class instance representing the IteraPlanTestsRepository element repository.
@@ -49,6 +50,7 @@ namespace IteraPlanTests
             _welcomeiteraplan = new IteraPlanTestsRepositoryFolders.WelcomeIteraplanAppFolder(this);
             _welcomeiteraplangooglechrome = new IteraPlanTestsRepositoryFolders.WelcomeIteraplanGoogleChromeAppFolder(this);
             _explorer = new IteraPlanTestsRepositoryFolders.ExplorerAppFolder(this);
+            _onetszukajwgoogle = new IteraPlanTestsRepositoryFolders.OnetSzukajWGoogleAppFolder(this);
         }
 
 #region Variables
@@ -116,6 +118,15 @@ namespace IteraPlanTests
         public virtual IteraPlanTestsRepositoryFolders.ExplorerAppFolder Explorer
         {
             get { return _explorer; }
+        }
+
+        /// <summary>
+        /// The OnetSzukajWGoogle folder.
+        /// </summary>
+        [RepositoryFolder("1225b798-8e9d-4d7b-9fee-de1b917e9acf")]
+        public virtual IteraPlanTestsRepositoryFolders.OnetSzukajWGoogleAppFolder OnetSzukajWGoogle
+        {
+            get { return _onetszukajwgoogle; }
         }
     }
 
@@ -1306,6 +1317,98 @@ namespace IteraPlanTests
                 get
                 {
                     return _iteraplantestsranorexstudioInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The OnetSzukajWGoogleAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("1225b798-8e9d-4d7b-9fee-de1b917e9acf")]
+        public partial class OnetSzukajWGoogleAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _buttontagfzlInfo;
+            RepoItemInfo _onetplInfo;
+
+            /// <summary>
+            /// Creates a new OnetSzukajWGoogle  folder.
+            /// </summary>
+            public OnetSzukajWGoogleAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("OnetSzukajWGoogle", "/dom[@domain='www.google.pl']", parentFolder, 30000, null, false, "1225b798-8e9d-4d7b-9fee-de1b917e9acf", "")
+            {
+                _buttontagfzlInfo = new RepoItemInfo(this, "ButtonTagFZl", ".//button[#'_fZl']", 30000, null, "cb990ced-8d56-4978-b793-ff575b2ced99");
+                _onetplInfo = new RepoItemInfo(this, "OnetPl", ".//div[#'rso']/div[1]/div/div/div/?/?/a[@innertext='Onet.pl']", 30000, null, "cb9d99ec-5338-4162-91d5-9edf5c9c9995");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("1225b798-8e9d-4d7b-9fee-de1b917e9acf")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("1225b798-8e9d-4d7b-9fee-de1b917e9acf")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagFZl item.
+            /// </summary>
+            [RepositoryItem("cb990ced-8d56-4978-b793-ff575b2ced99")]
+            public virtual Ranorex.ButtonTag ButtonTagFZl
+            {
+                get
+                {
+                    return _buttontagfzlInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonTagFZl item info.
+            /// </summary>
+            [RepositoryItemInfo("cb990ced-8d56-4978-b793-ff575b2ced99")]
+            public virtual RepoItemInfo ButtonTagFZlInfo
+            {
+                get
+                {
+                    return _buttontagfzlInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OnetPl item.
+            /// </summary>
+            [RepositoryItem("cb9d99ec-5338-4162-91d5-9edf5c9c9995")]
+            public virtual Ranorex.ATag OnetPl
+            {
+                get
+                {
+                    return _onetplInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OnetPl item info.
+            /// </summary>
+            [RepositoryItemInfo("cb9d99ec-5338-4162-91d5-9edf5c9c9995")]
+            public virtual RepoItemInfo OnetPlInfo
+            {
+                get
+                {
+                    return _onetplInfo;
                 }
             }
         }

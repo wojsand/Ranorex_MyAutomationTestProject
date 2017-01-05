@@ -112,6 +112,18 @@
       <UserCode>true</UserCode>
       <id>98bef0b7-05a0-4520-b815-259fff68cdb7</id>
     </Compile>
+    <Compile Include="Test\RecordingTestowy.cs">
+      <BoundTo>600d56bc-9cb6-4087-be5f-e6a715004100</BoundTo>
+      <DependentUpon>RecordingTestowy.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7f8f8d3e-d7ea-40c4-aa86-6e94de6e21f6</id>
+    </Compile>
+    <Compile Include="Test\RecordingTestowy.UserCode.cs">
+      <BoundTo>600d56bc-9cb6-4087-be5f-e6a715004100</BoundTo>
+      <DependentUpon>RecordingTestowy.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dc750802-1b9a-4599-b3ba-fe390d824d00</id>
+    </Compile>
     <Compile Include="Web\ActionSwitch.cs">
       <BoundTo>a67082ec-234c-4cdd-b1a9-37980cffbf0f</BoundTo>
       <DependentUpon>ActionSwitch.rxrec</DependentUpon>
@@ -371,6 +383,11 @@
       <id>468020aa-cc32-4314-9c5c-d4f038d88a04</id>
       <recordtableid>ad186afe-675a-4c97-8486-01e4baaddbb7</recordtableid>
     </None>
+    <None Include="Test\RecordingTestowy.rxrec">
+      <BoundTo>d5bb0bdc-5041-4ef7-9751-1c5c9706b0fa</BoundTo>
+      <id>600d56bc-9cb6-4087-be5f-e6a715004100</id>
+      <recordtableid>a89b4dc1-3469-4b4c-a6e7-c5a552a146eb</recordtableid>
+    </None>
     <None Include="Web\ActionSwitch.Repository.rximg">
       <BoundTo>a67082ec-234c-4cdd-b1a9-37980cffbf0f</BoundTo>
       <DependentUpon>ActionSwitch.rxrec</DependentUpon>
@@ -502,6 +519,9 @@
     </Folder>
     <Folder Include="Copy_2\Copy">
       <id>dfff955e-4ade-41a2-bd68-cdbb541ad14f</id>
+    </Folder>
+    <Folder Include="Test">
+      <id>76a25044-8495-4a04-aeb7-5718589761f6</id>
     </Folder>
     <Folder Include="Web">
       <id>c99ca94e-0a9c-4004-ba61-0845164139c1</id>
