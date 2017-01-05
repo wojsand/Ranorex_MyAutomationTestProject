@@ -1,0 +1,106 @@
+﻿<repository
+name="RepositoryForNewSystem"
+id="e40d1f26-54c8-401b-a54c-f1cf8d98428f"
+rxversion="6.0">
+	<codegen
+	classname="RepositoryForNewSystem"
+	namespace="IteraPlanTests.Web"/>
+	<rootfolder
+	name="Root"
+	id="78cbf678-4d23-4d8c-9a63-6a7e659735bb"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="IteraplanHome"
+		id="4ba305a0-b6d3-47e7-9165-7ffe148ae0d0"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='localhost:8080']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="IpDataTiles"
+			id="703b1932-bf71-4d5c-b1ad-df62731126e5"
+			searchtimeout="30000ms"
+			capname="webelement"
+			refpath="/dom[@domain='localhost:8080']//tag[#'tab-content-0']/div/tag[@tagname='ip-data-tiles']"
+			addcaps="unknown,webelement"
+			refimgid="a1e66747-87e9-4f4c-a55c-15a83451d033">
+				/dom[@domain='localhost:8080']//tag[#'tab-content-0']/?/?/tag[@tagname='ip-data-tiles']
+			</item>
+			<item
+			name="ContainerFluid"
+			id="2f927beb-10f7-409b-8a27-565224400096"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:8080']/body/div"
+			addcaps="unknown,webelement,divtag"
+			refimgid="f9f1427a-a609-4bb6-a293-8daab3b20786">
+				/dom[@domain='localhost:8080']/body/div
+			</item>
+			<item
+			name="MdGridList"
+			id="43ba5307-3ed1-403e-9c52-af06a5172965"
+			searchtimeout="30000ms"
+			capname="webelement"
+			refpath="/dom[@domain='localhost:8080']//tag[#'tab-content-0']/div/tag[@tagname='ip-data-tiles']/tag[@tagname='md-grid-list']"
+			addcaps="unknown,webelement"
+			refimgid="98850ed0-e642-4dfd-8888-d4488d7858c7">
+				/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']
+			</item>
+			<item
+			name="HttpLocalhost8080IteraplanClientH"
+			id="0f919b5a-2603-4499-a5a7-796cc45b755b"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='localhost:8080']//tag[#'tab-content-0']/div/tag[@tagname='ip-data-tiles']/tag[@tagname='md-grid-list']/tag[10]/figure/tag[@tagname='ip-data-tile']/a[@href='http://localhost:8080/iteraplan/client/#/list/Project']"
+			addcaps="unknown,webelement,atag"
+			refimgid="9ad2376c-4a62-4fc7-b3b4-8776f57fb06c">
+				/dom[@domain='localhost:8080']//tag[#'tab-content-0']//tag[@tagname='md-grid-list']/tag[10]/figure/?/?/a[@href~'^http://localhost:8080/ite']
+			</item>
+			<item
+			name="AgBodyViewport"
+			id="01223431-6228-489f-b60e-4ab4f636ef63"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div"
+			addcaps="unknown,webelement,divtag"
+			refimgid="3eb60d7f-995f-4b26-91f7-cba0d45d26c4">
+				/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div
+			</item>
+			<item
+			name="MigrationDB"
+			id="00181371-6dde-4524-b77c-92934cd93f46"
+			searchtimeout="30000ms"
+			capname="divtag"
+			refpath="/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[5]/div[@innertext='Migration DB']"
+			addcaps="unknown,webelement,divtag"
+			refimgid="786a8cbb-504f-47d3-bff1-3391cb95abb4">
+				/dom[@domain='localhost:8080']//div[#'borderLayout_eGridPanel']/div[@id='center']/div/div[4]/div[3]/div/div/div[5]/div[@innertext='Migration DB']
+			</item>
+			<basepath>
+				/dom[@domain='localhost:8080']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>
